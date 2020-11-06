@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".MainActivity"
+        <activity android:name=".Education"
             android:screenOrientation="landscape"/>
         <activity android:name=".loginPopup"
             android:screenOrientation="landscape" />
@@ -23,10 +23,10 @@
             android:name=".joinmembershipPopup"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".Education"
+            android:name=".shortsentence"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".shortsentence"
+            android:name=".MainActivity"
             android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

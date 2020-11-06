@@ -121,7 +121,7 @@
         app:srcCompat="@drawable/blurredboard_study_home2" />
 
     <ImageView
-        android:id="@+id/imageView23"
+        android:id="@+id/frontButton"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginStart="392dp"
@@ -132,13 +132,13 @@
         app:srcCompat="@drawable/arrow_left" />
 
     <ImageView
-        android:id="@+id/imageView24"
+        android:id="@+id/mikbackbutton"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginStart="45dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView23"
-        app:layout_constraintStart_toEndOf="@+id/imageView23"
-        app:layout_constraintTop_toTopOf="@+id/imageView23"
+        app:layout_constraintBottom_toBottomOf="@+id/frontButton"
+        app:layout_constraintStart_toEndOf="@+id/frontButton"
+        app:layout_constraintTop_toTopOf="@+id/frontButton"
         app:srcCompat="@drawable/arrow_right" />
 
     <ImageView

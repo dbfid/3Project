@@ -16,7 +16,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class Education extends AppCompatActivity implements View.OnClickListener {
 
-    private Button button;
+    private ImageView button;
     private FirebaseAuth firebaseAuth;
 
 
@@ -26,7 +26,7 @@ public class Education extends AppCompatActivity implements View.OnClickListener
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_education);
 
-        button = (Button) findViewById(R.id.button);
+        button = (ImageView) findViewById(R.id.Exit);
         button.setOnClickListener(this);
         firebaseAuth = FirebaseAuth.getInstance();
 

@@ -144,6 +144,7 @@
         app:srcCompat="@drawable/mic" />
 
     <ImageView
+        android:id="@+id/mikbackbutton"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginStart="45dp"

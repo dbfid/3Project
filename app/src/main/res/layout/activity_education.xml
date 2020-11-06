@@ -160,18 +160,6 @@
         app:layout_constraintStart_toStartOf="@+id/Setting"
         app:layout_constraintTop_toBottomOf="@+id/Setting" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="로그아웃"
-        app:layout_constraintBottom_toBottomOf="@+id/beachsidebackground"
-        app:layout_constraintEnd_toEndOf="@+id/beachsidebackground"
-        app:layout_constraintHorizontal_bias="0.773"
-        app:layout_constraintStart_toStartOf="@+id/beachsidebackground"
-        app:layout_constraintTop_toTopOf="@+id/beachsidebackground"
-        app:layout_constraintVertical_bias="0.863" />
-
     <ImageView
         android:id="@+id/backbutton"
         android:layout_width="40dp"
@@ -194,5 +182,17 @@
         app:layout_constraintBottom_toBottomOf="@+id/backbutton"
         app:layout_constraintStart_toEndOf="@+id/backbutton"
         app:layout_constraintTop_toTopOf="@+id/backbutton" />
+
+    <ImageView
+        android:id="@+id/Exit"
+        android:layout_width="53dp"
+        android:layout_height="83dp"
+        app:layout_constraintBottom_toBottomOf="@+id/bluemat"
+        app:layout_constraintEnd_toEndOf="@+id/bluemat"
+        app:layout_constraintHorizontal_bias="0.924"
+        app:layout_constraintStart_toStartOf="@+id/bluemat"
+        app:layout_constraintTop_toTopOf="@+id/bluemat"
+        app:layout_constraintVertical_bias="0.794"
+        app:srcCompat="@drawable/poweroff" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

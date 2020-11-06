@@ -120,17 +120,17 @@
         app:srcCompat="@drawable/blurredboard_study_shopping2" />
 
     <ImageView
-        android:id="@+id/imageView31"
+        android:id="@+id/mikbackbutton"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginStart="45dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView32"
-        app:layout_constraintStart_toEndOf="@+id/imageView32"
-        app:layout_constraintTop_toTopOf="@+id/imageView32"
+        app:layout_constraintBottom_toBottomOf="@+id/frontButton"
+        app:layout_constraintStart_toEndOf="@+id/frontButton"
+        app:layout_constraintTop_toTopOf="@+id/frontButton"
         app:srcCompat="@drawable/arrow_right" />
 
     <ImageView
-        android:id="@+id/imageView32"
+        android:id="@+id/frontButton"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginStart="388dp"
