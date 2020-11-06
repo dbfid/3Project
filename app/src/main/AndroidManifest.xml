@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
-            android:name=".Setting"
+            android:name=".Mypage"
             android:screenOrientation="landscape"/>
         <activity
             android:name=".wordlearning"
@@ -49,7 +49,7 @@
             android:name=".shortsentence"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".Mypage"
+            android:name=".Setting"
             android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
