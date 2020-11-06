@@ -18,14 +18,14 @@
         app:srcCompat="@drawable/ghldnjsrkdlq" />
 
     <ImageView
-        android:id="@+id/imageView30"
+        android:id="@+id/pronunciationpearl"
         android:layout_width="104dp"
         android:layout_height="109dp"
         android:layout_marginBottom="228dp"
         app:layout_constraintBottom_toBottomOf="@+id/background"
-        app:layout_constraintEnd_toEndOf="@+id/imageView29"
+        app:layout_constraintEnd_toEndOf="@+id/placepronunciation"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/imageView29"
+        app:layout_constraintStart_toStartOf="@+id/placepronunciation"
         app:srcCompat="@drawable/anfqkddnf" />
 
     <TextView
@@ -33,6 +33,7 @@
         android:layout_width="95dp"
         android:layout_height="35dp"
         android:text="뒤로가기"
+        android:fontFamily="@font/bazzi"
         android:textColor="#E44F72"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/backbutton"
@@ -51,7 +52,7 @@
         app:srcCompat="@drawable/oranagearrow_left" />
 
     <ImageView
-        android:id="@+id/imageView29"
+        android:id="@+id/placepronunciation"
         android:layout_width="429dp"
         android:layout_height="290dp"
         app:layout_constraintBottom_toBottomOf="@+id/background"
@@ -62,21 +63,21 @@
         app:srcCompat="@drawable/board_school" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/pronranking"
         android:layout_width="56dp"
         android:layout_height="25dp"
         android:fontFamily="@font/bazzi"
         android:text="발음순위"
         android:textColor="#000000"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView30"
-        app:layout_constraintEnd_toEndOf="@+id/imageView30"
-        app:layout_constraintStart_toStartOf="@+id/imageView30"
-        app:layout_constraintTop_toTopOf="@+id/imageView30"
+        app:layout_constraintBottom_toBottomOf="@+id/pronunciationpearl"
+        app:layout_constraintEnd_toEndOf="@+id/pronunciationpearl"
+        app:layout_constraintStart_toStartOf="@+id/pronunciationpearl"
+        app:layout_constraintTop_toTopOf="@+id/pronunciationpearl"
         app:layout_constraintVertical_bias="0.345" />
 
-    <ImageView
-        android:id="@+id/imageView32"
+         <ImageView
+        android:id="@+id/Profile"
         android:layout_width="136dp"
         android:layout_height="138dp"
         app:layout_constraintBottom_toBottomOf="@+id/background"
@@ -88,40 +89,40 @@
         app:srcCompat="@drawable/pngegg" />
 
     <TextView
-        android:id="@+id/textView11"
+        android:id="@+id/LV"
         android:layout_width="82dp"
         android:layout_height="41dp"
         android:layout_marginStart="8dp"
         android:fontFamily="@font/bazzi"
         android:text="LV:02"
         android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView32"
-        app:layout_constraintStart_toEndOf="@+id/imageView32"
-        app:layout_constraintTop_toTopOf="@+id/imageView32"
+        app:layout_constraintBottom_toBottomOf="@+id/Profile"
+        app:layout_constraintStart_toEndOf="@+id/Profile"
+        app:layout_constraintTop_toTopOf="@+id/Profile"
         app:layout_constraintVertical_bias="0.494" />
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/Nickname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:fontFamily="@font/bazzi"
         android:text="닉네임"
         android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView32"
-        app:layout_constraintStart_toEndOf="@+id/imageView32"
-        app:layout_constraintTop_toTopOf="@+id/imageView32"
+        app:layout_constraintBottom_toBottomOf="@+id/Profile"
+        app:layout_constraintStart_toEndOf="@+id/Profile"
+        app:layout_constraintTop_toTopOf="@+id/Profile"
         app:layout_constraintVertical_bias="0.072" />
 
     <ProgressBar
-        android:id="@+id/progressBar"
+        android:id="@+id/NicknameExperience"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="168dp"
         android:layout_height="26dp"
-        app:layout_constraintEnd_toEndOf="@+id/textView11"
+        app:layout_constraintEnd_toEndOf="@+id/LV"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/textView11"
-        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+        app:layout_constraintStart_toStartOf="@+id/LV"
+        app:layout_constraintTop_toBottomOf="@+id/LV" />
 
     <ProgressBar
         android:id="@+id/progressBar2"
@@ -136,29 +137,29 @@
         app:layout_constraintVertical_bias="0.137" />
 
     <ImageView
-        android:id="@+id/imageView37"
+        android:id="@+id/ChangeProfileplate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="108dp"
         android:layout_marginTop="112dp"
         android:background="#BAA7A7"
         android:backgroundTint="#979292"
-        app:layout_constraintStart_toEndOf="@+id/imageView32"
-        app:layout_constraintTop_toTopOf="@+id/imageView32"
+        app:layout_constraintStart_toEndOf="@+id/Profile"
+        app:layout_constraintTop_toTopOf="@+id/Profile"
         app:srcCompat="@drawable/common_google_signin_btn_text_light_normal_background" />
 
     <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/ChangeProfile"
         android:layout_width="75dp"
         android:layout_height="24dp"
         android:fontFamily="@font/bazzi"
         android:text="프로필 변경"
         android:textColor="#000000"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView37"
-        app:layout_constraintEnd_toEndOf="@+id/imageView37"
+        app:layout_constraintBottom_toBottomOf="@+id/ChangeProfileplate"
+        app:layout_constraintEnd_toEndOf="@+id/ChangeProfileplate"
         app:layout_constraintHorizontal_bias="0.583"
-        app:layout_constraintStart_toStartOf="@+id/imageView37"
-        app:layout_constraintTop_toTopOf="@+id/imageView37"
+        app:layout_constraintStart_toStartOf="@+id/ChangeProfileplate"
+        app:layout_constraintTop_toTopOf="@+id/ChangeProfileplate"
         app:layout_constraintVertical_bias="0.541" />
 </androidx.constraintlayout.widget.ConstraintLayout>

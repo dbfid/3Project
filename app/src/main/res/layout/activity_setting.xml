@@ -18,7 +18,7 @@
         app:srcCompat="@drawable/ghldnjsrkdlq" />
 
     <ImageView
-        android:id="@+id/imageView12"
+        android:id="@+id/soundeffectimage"
         android:layout_width="80dp"
         android:layout_height="75dp"
         app:layout_constraintBottom_toBottomOf="@+id/background"
@@ -30,19 +30,7 @@
         app:srcCompat="@drawable/anfqkddnf" />
 
     <ImageView
-        android:id="@+id/imageView24"
-        android:layout_width="80dp"
-        android:layout_height="75dp"
-        app:layout_constraintBottom_toBottomOf="@+id/background"
-        app:layout_constraintEnd_toEndOf="@+id/background"
-        app:layout_constraintHorizontal_bias="0.143"
-        app:layout_constraintStart_toStartOf="@+id/background"
-        app:layout_constraintTop_toTopOf="@+id/background"
-        app:layout_constraintVertical_bias="0.583"
-        app:srcCompat="@drawable/anfqkddnf" />
-
-    <ImageView
-        android:id="@+id/imageView23"
+        android:id="@+id/pushNotification"
         android:layout_width="80dp"
         android:layout_height="75dp"
         app:layout_constraintBottom_toBottomOf="@+id/background"
@@ -58,6 +46,7 @@
         android:layout_width="95dp"
         android:layout_height="35dp"
         android:text="뒤로가기"
+        android:fontFamily="@font/bazzi"
         android:textColor="#E44F72"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/backbutton"
@@ -76,7 +65,7 @@
         app:srcCompat="@drawable/oranagearrow_left" />
 
     <ImageView
-        android:id="@+id/imageView9"
+        android:id="@+id/backgroundsoundimage"
         android:layout_width="80dp"
         android:layout_height="75dp"
         app:layout_constraintBottom_toBottomOf="@+id/background"
@@ -88,40 +77,43 @@
         app:srcCompat="@drawable/anfqkddnf" />
 
     <TextView
-        android:id="@+id/textView14"
+        android:id="@+id/backgroundsoundtext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="배경음"
+        android:fontFamily="@font/bazzi"
         android:textColor="#000000"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
-        app:layout_constraintEnd_toEndOf="@+id/imageView9"
-        app:layout_constraintStart_toStartOf="@+id/imageView9"
-        app:layout_constraintTop_toTopOf="@+id/imageView9" />
+        app:layout_constraintBottom_toBottomOf="@+id/backgroundsoundimage"
+        app:layout_constraintEnd_toEndOf="@+id/backgroundsoundimage"
+        app:layout_constraintStart_toStartOf="@+id/backgroundsoundimage"
+        app:layout_constraintTop_toTopOf="@+id/backgroundsoundimage" />
 
     <TextView
-        android:id="@+id/textView16"
+        android:id="@+id/soundeffecttext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="효과음"
+        android:fontFamily="@font/bazzi"
         android:textColor="#000000"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView12"
-        app:layout_constraintEnd_toEndOf="@+id/imageView12"
-        app:layout_constraintStart_toStartOf="@+id/imageView12"
-        app:layout_constraintTop_toTopOf="@+id/imageView12" />
+        app:layout_constraintBottom_toBottomOf="@+id/soundeffectimage"
+        app:layout_constraintEnd_toEndOf="@+id/soundeffectimage"
+        app:layout_constraintStart_toStartOf="@+id/soundeffectimage"
+        app:layout_constraintTop_toTopOf="@+id/soundeffectimage" />
 
     <TextView
-        android:id="@+id/textView17"
+        android:id="@+id/pushNotificationtext"
         android:layout_width="63dp"
         android:layout_height="20dp"
         android:text="PUSH알림"
+        android:fontFamily="@font/bazzi"
         android:textColor="#000000"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView23"
-        app:layout_constraintEnd_toEndOf="@+id/imageView23"
-        app:layout_constraintStart_toStartOf="@+id/imageView23"
-        app:layout_constraintTop_toTopOf="@+id/imageView23" />
+        app:layout_constraintBottom_toBottomOf="@+id/pushNotification"
+        app:layout_constraintEnd_toEndOf="@+id/pushNotification"
+        app:layout_constraintStart_toStartOf="@+id/pushNotification"
+        app:layout_constraintTop_toTopOf="@+id/pushNotification" />
 
     <ToggleButton
-        android:id="@+id/toggleButton"
+        android:id="@+id/backgroundsoundtoggleButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#7DD4FF"
@@ -129,12 +121,13 @@
         android:textColor="#FFFFFF"
         android:textOff="끄기"
         android:textOn="켜기"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
-        app:layout_constraintStart_toEndOf="@+id/imageView9"
-        app:layout_constraintTop_toTopOf="@+id/imageView9" />
+        android:fontFamily="@font/bazzi"
+        app:layout_constraintBottom_toBottomOf="@+id/backgroundsoundimage"
+        app:layout_constraintStart_toEndOf="@+id/backgroundsoundimage"
+        app:layout_constraintTop_toTopOf="@+id/backgroundsoundimage" />
 
     <ToggleButton
-        android:id="@+id/toggleButton3"
+        android:id="@+id/pushNotificationtoggleButton3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#7DD4FF"
@@ -142,12 +135,13 @@
         android:textColor="#FFFFFF"
         android:textOff="끄기"
         android:textOn="켜기"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView23"
-        app:layout_constraintStart_toEndOf="@+id/imageView23"
-        app:layout_constraintTop_toTopOf="@+id/imageView23" />
+        android:fontFamily="@font/bazzi"
+        app:layout_constraintBottom_toBottomOf="@+id/pushNotification"
+        app:layout_constraintStart_toEndOf="@+id/pushNotification"
+        app:layout_constraintTop_toTopOf="@+id/pushNotification" />
 
     <ToggleButton
-        android:id="@+id/toggleButton2"
+        android:id="@+id/soundeffecttoggleButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#7DD4FF"
@@ -155,12 +149,13 @@
         android:textColor="#FFFFFF"
         android:textOff="끄기"
         android:textOn="켜기"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView12"
-        app:layout_constraintStart_toEndOf="@+id/imageView12"
-        app:layout_constraintTop_toTopOf="@+id/imageView12" />
+        android:fontFamily="@font/bazzi"
+        app:layout_constraintBottom_toBottomOf="@+id/soundeffectimage"
+        app:layout_constraintStart_toEndOf="@+id/soundeffectimage"
+        app:layout_constraintTop_toTopOf="@+id/soundeffectimage" />
 
     <ImageView
-        android:id="@+id/imageView44"
+        android:id="@+id/fontchangeplate"
         android:layout_width="376dp"
         android:layout_height="250dp"
         app:layout_constraintBottom_toBottomOf="@+id/background"
@@ -172,46 +167,49 @@
         app:srcCompat="@drawable/board_school" />
 
     <TextView
-        android:id="@+id/textView19"
+        android:id="@+id/fontchange"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="248dp"
         android:text="폰트변경"
+        android:fontFamily="@font/bazzi"
         android:textColor="#093447"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView44"
-        app:layout_constraintEnd_toEndOf="@+id/imageView44"
+        app:layout_constraintBottom_toBottomOf="@+id/fontchangeplate"
+        app:layout_constraintEnd_toEndOf="@+id/fontchangeplate"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/imageView44" />
+        app:layout_constraintStart_toStartOf="@+id/fontchangeplate" />
 
     <ImageView
-        android:id="@+id/imageView45"
+        android:id="@+id/fontchangecheckimage"
         android:layout_width="58dp"
         android:layout_height="59dp"
         android:layout_marginBottom="248dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView44"
-        app:layout_constraintEnd_toEndOf="@+id/imageView44"
+        app:layout_constraintBottom_toBottomOf="@+id/fontchangeplate"
+        app:layout_constraintEnd_toEndOf="@+id/fontchangeplate"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/imageView44"
+        app:layout_constraintStart_toStartOf="@+id/fontchangeplate"
         app:srcCompat="@drawable/word_menu_name_blank" />
 
     <TextView
-        android:id="@+id/textView20"
+        android:id="@+id/fontchangechecktext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="확인"
+        android:fontFamily="@font/bazzi"
         android:textColor="#000000"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView45"
-        app:layout_constraintEnd_toEndOf="@+id/imageView45"
-        app:layout_constraintStart_toStartOf="@+id/imageView45"
-        app:layout_constraintTop_toTopOf="@+id/imageView45"
+        app:layout_constraintBottom_toBottomOf="@+id/fontchangecheckimage"
+        app:layout_constraintEnd_toEndOf="@+id/fontchangecheckimage"
+        app:layout_constraintStart_toStartOf="@+id/fontchangecheckimage"
+        app:layout_constraintTop_toTopOf="@+id/fontchangecheckimage"
         app:layout_constraintVertical_bias="0.65" />
 
     <TextView
-        android:id="@+id/textView21"
+        android:id="@+id/imagesizingtext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="이미지 크기 조절"
+        android:fontFamily="@font/bazzi"
         android:textColor="#000000"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/background"
@@ -222,25 +220,26 @@
         app:layout_constraintVertical_bias="0.179" />
 
     <ImageView
-        android:id="@+id/imageView46"
+        android:id="@+id/imagepercentage"
         android:layout_width="64dp"
         android:layout_height="58dp"
         android:layout_marginStart="12dp"
-        app:layout_constraintStart_toStartOf="@+id/textView21"
-        app:layout_constraintTop_toBottomOf="@+id/textView21"
+        app:layout_constraintStart_toStartOf="@+id/imagesizingtext"
+        app:layout_constraintTop_toBottomOf="@+id/imagesizingtext"
         app:srcCompat="@drawable/gameicon_empty" />
 
     <TextView
-        android:id="@+id/textView22"
+        android:id="@+id/imagepercentageText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="00%"
+        android:fontFamily="@font/bazzi"
         android:textColor="#000000"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView46"
-        app:layout_constraintEnd_toEndOf="@+id/imageView46"
+        app:layout_constraintBottom_toBottomOf="@+id/imagepercentage"
+        app:layout_constraintEnd_toEndOf="@+id/imagepercentage"
         app:layout_constraintHorizontal_bias="0.526"
-        app:layout_constraintStart_toStartOf="@+id/imageView46"
-        app:layout_constraintTop_toTopOf="@+id/imageView46"
+        app:layout_constraintStart_toStartOf="@+id/imagepercentage"
+        app:layout_constraintTop_toTopOf="@+id/imagepercentage"
         app:layout_constraintVertical_bias="0.794" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
