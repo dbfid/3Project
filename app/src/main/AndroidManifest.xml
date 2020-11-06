@@ -9,15 +9,29 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".Education"
+        <activity
+            android:name=".Education"
             android:screenOrientation="landscape"/>
-        <activity android:name=".loginPopup"
+        <activity
+            android:name=".wordlearning"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".educationpage2"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".educationpage4"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".loginPopup"
             android:screenOrientation="landscape" />
         <activity
             android:name=".longsentence"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".wordlearning"
+            android:name=".educationpage3"
             android:screenOrientation="landscape" />
         <activity
             android:name=".joinmembershipPopup"
@@ -26,7 +40,7 @@
             android:name=".shortsentence"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".MainActivity"
+            android:name=".educationpage1"
             android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
