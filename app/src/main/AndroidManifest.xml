@@ -22,7 +22,7 @@
             android:name=".Education"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".wordlearning"
+            android:name=".educationpage1"
             android:screenOrientation="landscape" />
         <activity
             android:name=".educationpage2"
@@ -49,7 +49,7 @@
             android:name=".shortsentence"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".educationpage1"
+            android:name=".wordlearning"
             android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
