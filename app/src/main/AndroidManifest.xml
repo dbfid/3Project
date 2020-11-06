@@ -13,7 +13,7 @@
             android:name=".Setting"
             android:screenOrientation="landscape"/>
         <activity
-            android:name=".Mypage"
+            android:name=".wordlearning"
             android:screenOrientation="landscape"/>
         <activity
             android:name=".educationgame"
@@ -49,7 +49,7 @@
             android:name=".shortsentence"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".wordlearning"
+            android:name=".Mypage"
             android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
