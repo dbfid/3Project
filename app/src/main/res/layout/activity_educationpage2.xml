@@ -140,10 +140,10 @@
         android:layout_height="55dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView27"
         app:layout_constraintEnd_toEndOf="@+id/imageView27"
-        app:layout_constraintHorizontal_bias="0.850"
+        app:layout_constraintHorizontal_bias="0.828"
         app:layout_constraintStart_toStartOf="@+id/imageView27"
         app:layout_constraintTop_toTopOf="@+id/imageView27"
-        app:layout_constraintVertical_bias="0.925"
+        app:layout_constraintVertical_bias="0.92"
         app:srcCompat="@drawable/mic" />
 
     <ImageView

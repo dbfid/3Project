@@ -10,20 +10,29 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
-            android:name=".Education"
+            android:name=".Setting"
             android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Mypage"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".educationgame"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Education"
+            android:screenOrientation="landscape" />
         <activity
             android:name=".wordlearning"
-            android:screenOrientation="landscape"/>
+            android:screenOrientation="landscape" />
         <activity
             android:name=".educationpage2"
-            android:screenOrientation="landscape"/>
+            android:screenOrientation="landscape" />
         <activity
             android:name=".MainActivity"
-            android:screenOrientation="landscape"/>
+            android:screenOrientation="landscape" />
         <activity
             android:name=".educationpage4"
-            android:screenOrientation="landscape"/>
+            android:screenOrientation="landscape" />
         <activity
             android:name=".loginPopup"
             android:screenOrientation="landscape" />
