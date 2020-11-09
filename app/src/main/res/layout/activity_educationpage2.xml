@@ -4,225 +4,237 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#000000"
     tools:context=".educationpage2">
 
     <ImageView
-        android:id="@+id/background"
-        android:layout_width="732dp"
-        android:layout_height="995dp"
+        android:id="@+id/beachsidebackground"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.501"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/emptypage" />
 
     <ImageView
-        android:id="@+id/backButton"
-        android:layout_width="48dp"
-        android:layout_height="44dp"
-        android:layout_marginTop="312dp"
-        app:layout_constraintEnd_toEndOf="@+id/background"
-        app:layout_constraintHorizontal_bias="0.031"
-        app:layout_constraintStart_toStartOf="@+id/background"
-        app:layout_constraintTop_toTopOf="@+id/background"
-        app:srcCompat="@drawable/oranagearrow_left" />
+        android:id="@+id/bluemat"
+        android:layout_width="550dp"
+        android:layout_height="500dp"
+        app:layout_constraintBottom_toTopOf="@+id/beachsidebackground"
+        app:layout_constraintEnd_toEndOf="@+id/beachsidebackground"
+        app:layout_constraintHorizontal_bias="0.7"
+        app:layout_constraintStart_toStartOf="@+id/beachsidebackground"
+        app:layout_constraintTop_toBottomOf="@+id/beachsidebackground"
+        app:srcCompat="@drawable/blurredboard_study_hospital2" />
 
-    <ImageView
-        android:id="@+id/Education"
-        android:layout_width="78dp"
-        android:layout_height="78dp"
-        android:layout_marginTop="356dp"
-        app:layout_constraintEnd_toEndOf="@+id/background"
-        app:layout_constraintHorizontal_bias="0.044"
-        app:layout_constraintStart_toStartOf="@+id/background"
-        app:layout_constraintTop_toTopOf="@+id/background"
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="40dp"
+        android:adjustViewBounds="true"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="@+id/imageButton10"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton10"
+        app:srcCompat="@drawable/my_page_menuicon" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="@+id/imageButton"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton"
         app:srcCompat="@drawable/learning_menuicon" />
 
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="40dp"
+        android:adjustViewBounds="true"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageButton9"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton9"
+        app:srcCompat="@drawable/settings_menuicon" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:adjustViewBounds="true"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/oranagearrow_left" />
+
     <TextView
-        android:id="@+id/educationText"
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_marginTop="3dp"
         android:fontFamily="@font/bazzi"
         android:text="학습"
         android:textColor="#000000"
         android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="@id/Education"
-        app:layout_constraintHorizontal_bias="0.189"
-        app:layout_constraintStart_toStartOf="@+id/Education"
-        app:layout_constraintTop_toBottomOf="@+id/Education" />
-
-    <ImageView
-        android:id="@+id/Mypage"
-        android:layout_width="78dp"
-        android:layout_height="78dp"
-        android:layout_marginTop="456dp"
-        app:layout_constraintEnd_toEndOf="@+id/background"
-        app:layout_constraintHorizontal_bias="0.045"
-        app:layout_constraintStart_toStartOf="@+id/background"
-        app:layout_constraintTop_toTopOf="@+id/background"
-        app:srcCompat="@drawable/my_page_menuicon" />
-
-    <ImageView
-        android:id="@+id/Setting"
-        android:layout_width="78dp"
-        android:layout_height="78dp"
-        android:layout_marginTop="556dp"
-        app:layout_constraintEnd_toEndOf="@+id/background"
-        app:layout_constraintHorizontal_bias="0.044"
-        app:layout_constraintStart_toStartOf="@+id/background"
-        app:layout_constraintTop_toTopOf="@+id/background"
-        app:srcCompat="@drawable/settings_menuicon" />
+        app:layout_constraintEnd_toEndOf="@+id/imageButton10"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/imageButton10"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton10" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
         android:fontFamily="@font/bazzi"
         android:text="마이페이지"
         android:textColor="#000000"
         android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="@+id/Mypage"
-        app:layout_constraintStart_toStartOf="@+id/Mypage"
-        app:layout_constraintTop_toBottomOf="@+id/Mypage" />
+        app:layout_constraintEnd_toEndOf="@+id/imageButton9"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/imageButton9"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton9" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
         android:fontFamily="@font/bazzi"
         android:text="설정"
         android:textColor="#000000"
         android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="@+id/Setting"
-        app:layout_constraintStart_toStartOf="@+id/Setting"
-        app:layout_constraintTop_toBottomOf="@+id/Setting" />
+        app:layout_constraintEnd_toEndOf="@+id/imageButton11"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/imageButton11"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton11" />
 
     <TextView
-        android:id="@+id/backbutton"
-        android:layout_width="90dp"
-        android:layout_height="24dp"
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
         android:fontFamily="@font/bazzi"
+        android:outlineAmbientShadowColor="#FFFFFF"
         android:text="뒤로가기"
-        android:textColor="#E44F72"
+        android:textColor="#D6450B"
         android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/backButton"
-        app:layout_constraintStart_toEndOf="@+id/backButton"
-        app:layout_constraintTop_toTopOf="@+id/backButton" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton"
+        app:layout_constraintStart_toEndOf="@+id/imageButton"
+        app:layout_constraintTop_toTopOf="@+id/imageButton"
+        app:layout_constraintVertical_bias="0.5" />
 
-    <ImageView
-        android:id="@+id/imageView27"
-        android:layout_width="550dp"
-        android:layout_height="370dp"
-        app:layout_constraintBottom_toBottomOf="@+id/background"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.703"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/background"
-        app:layout_constraintVertical_bias="0.499"
-        app:srcCompat="@drawable/blurredboard_study_school2" />
-
-    <ImageView
-        android:id="@+id/frontButton"
-        android:layout_width="38dp"
-        android:layout_height="39dp"
-        android:layout_marginStart="372dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView27"
-        app:layout_constraintStart_toStartOf="@+id/imageView27"
-        app:layout_constraintTop_toTopOf="@+id/imageView27"
-        app:layout_constraintVertical_bias="0.7"
-        app:srcCompat="@drawable/arrow_left" />
-
-    <ImageView
-        android:id="@+id/imageView33"
+    <ImageButton
+        android:id="@+id/imageButton2"
         android:layout_width="55dp"
         android:layout_height="55dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView27"
-        app:layout_constraintEnd_toEndOf="@+id/imageView27"
-        app:layout_constraintHorizontal_bias="0.828"
-        app:layout_constraintStart_toStartOf="@+id/imageView27"
-        app:layout_constraintTop_toTopOf="@+id/imageView27"
-        app:layout_constraintVertical_bias="0.92"
+        android:adjustViewBounds="true"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/bluemat"
+        app:layout_constraintEnd_toEndOf="@+id/imageView35"
+        app:layout_constraintStart_toStartOf="@+id/imageView35"
+        app:layout_constraintTop_toTopOf="@+id/bluemat"
+        app:layout_constraintVertical_bias="0.77"
         app:srcCompat="@drawable/mic" />
 
-    <ImageView
-        android:id="@+id/speaker2"
-        android:layout_width="60dp"
-        android:layout_height="53dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView27"
-        app:layout_constraintEnd_toEndOf="@+id/imageView27"
-        app:layout_constraintHorizontal_bias="0.636"
-        app:layout_constraintStart_toStartOf="@+id/imageView27"
-        app:layout_constraintTop_toTopOf="@+id/imageView27"
-        app:layout_constraintVertical_bias="0.564"
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20dp"
+        android:adjustViewBounds="true"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton2"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+        app:srcCompat="@drawable/arrow_left" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20dp"
+        android:adjustViewBounds="true"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton2"
+        app:layout_constraintStart_toEndOf="@+id/imageButton2"
+        app:srcCompat="@drawable/arrow_right" />
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="35dp"
+        android:layout_height="40dp"
+        android:adjustViewBounds="true"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView24"
+        app:layout_constraintStart_toEndOf="@+id/imageView24"
+        app:layout_constraintTop_toTopOf="@+id/imageView24"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/speaker" />
 
     <ImageView
-        android:id="@+id/mikbackbutton"
-        android:layout_width="40dp"
+        android:id="@+id/imageView24"
+        android:layout_width="270dp"
         android:layout_height="40dp"
-        android:layout_marginStart="45dp"
-        app:layout_constraintBottom_toBottomOf="@+id/frontButton"
-        app:layout_constraintStart_toEndOf="@+id/frontButton"
-        app:layout_constraintTop_toTopOf="@+id/frontButton"
-        app:srcCompat="@drawable/arrow_right" />
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView31"
+        app:layout_constraintTop_toBottomOf="@+id/imageView31"
+        app:srcCompat="@drawable/bar" />
 
     <ImageView
-        android:id="@+id/edu3"
-        android:layout_width="239dp"
-        android:layout_height="41dp"
-        android:layout_marginTop="12dp"
-        app:layout_constraintEnd_toEndOf="@+id/edu2"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/edu2"
-        app:layout_constraintTop_toBottomOf="@+id/edu2"
-        app:srcCompat="@android:drawable/button_onoff_indicator_off" />
+        android:id="@+id/imageView29"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView30"
+        app:layout_constraintTop_toBottomOf="@+id/imageView30"
+        app:srcCompat="@drawable/bar" />
 
     <ImageView
-        android:id="@+id/edu2"
-        android:layout_width="239dp"
-        android:layout_height="41dp"
-        android:layout_marginTop="12dp"
-        app:layout_constraintEnd_toEndOf="@+id/edu1"
-        app:layout_constraintStart_toStartOf="@+id/edu1"
-        app:layout_constraintTop_toBottomOf="@+id/edu1"
-        app:srcCompat="@android:drawable/button_onoff_indicator_off" />
+        android:id="@+id/imageView30"
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@+id/imageView24"
+        app:layout_constraintTop_toBottomOf="@+id/imageView24"
+        app:srcCompat="@drawable/bar" />
 
     <ImageView
-        android:id="@+id/eduLips"
-        android:layout_width="155dp"
-        android:layout_height="90dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView27"
-        app:layout_constraintEnd_toEndOf="@+id/imageView27"
-        app:layout_constraintHorizontal_bias="0.941"
-        app:layout_constraintStart_toStartOf="@+id/imageView27"
-        app:layout_constraintTop_toTopOf="@+id/imageView27"
-        app:layout_constraintVertical_bias="0.127"
-        app:srcCompat="@drawable/qorud" />
+        android:id="@+id/imageView31"
+        android:layout_width="330dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="95dp"
+        app:layout_constraintStart_toStartOf="@+id/bluemat"
+        app:layout_constraintTop_toTopOf="@+id/bluemat"
+        app:srcCompat="@drawable/bady" />
 
     <ImageView
-        android:id="@+id/edu1"
-        android:layout_width="239dp"
-        android:layout_height="41dp"
-        android:layout_marginTop="12dp"
-        app:layout_constraintEnd_toEndOf="@+id/eduencoder"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/eduencoder"
-        app:layout_constraintTop_toBottomOf="@+id/eduencoder"
-        app:srcCompat="@android:drawable/button_onoff_indicator_off" />
-
-    <ImageView
-        android:id="@+id/eduencoder"
-        android:layout_width="281dp"
-        android:layout_height="161dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView27"
-        app:layout_constraintEnd_toEndOf="@+id/imageView27"
-        app:layout_constraintHorizontal_bias="0.115"
-        app:layout_constraintStart_toStartOf="@+id/imageView27"
-        app:layout_constraintTop_toTopOf="@+id/imageView27"
-        app:layout_constraintVertical_bias="0.138"
-        app:srcCompat="@drawable/qorud" />
+        android:id="@+id/imageView35"
+        android:layout_width="165dp"
+        android:layout_height="165dp"
+        android:layout_marginStart="15dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView31"
+        app:layout_constraintTop_toTopOf="@+id/imageView31"
+        app:srcCompat="@drawable/bady2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

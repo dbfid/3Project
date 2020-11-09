@@ -26,7 +26,7 @@ public class Education extends AppCompatActivity implements View.OnClickListener
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_education);
 
-        button = (ImageView) findViewById(R.id.Exit);
+        button = (ImageView) findViewById(R.id.exit);
         button.setOnClickListener(this);
         firebaseAuth = FirebaseAuth.getInstance();
 
@@ -49,14 +49,14 @@ public class Education2 extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_education);
 
-        enteringaword = findViewById(R.id.enteringaword);
+/*        enteringaword = findViewById(R.id.enteringaword);
         enteringaword.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://WWW.naver.com"));
                 startActivity(intent);
             }
-        });
+        });*/
     }
 }
 }

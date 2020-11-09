@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/imageView10"
-        android:layout_width="306dp"
-        android:layout_height="331dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:src="@drawable/block1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,35 +22,35 @@
         android:id="@+id/edtext3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="136dp"
         android:ems="10"
         android:hint="id"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/edtext4"
         app:layout_constraintEnd_toEndOf="@+id/imageView10"
         app:layout_constraintStart_toStartOf="@+id/imageView10"
-        app:layout_constraintTop_toTopOf="@+id/imageView10"
-        app:layout_constraintVertical_bias="0.798" />
+        app:layout_constraintTop_toTopOf="@+id/imageView10" />
 
     <EditText
         android:id="@+id/edtext4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="12dp"
+        android:layout_marginTop="4dp"
         android:ems="10"
         android:hint="pw"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/btn4"
         app:layout_constraintEnd_toEndOf="@+id/imageView10"
-        app:layout_constraintStart_toStartOf="@+id/imageView10" />
+        app:layout_constraintStart_toStartOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/edtext3" />
 
     <Button
         android:id="@+id/btn4"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="72dp"
+        android:layout_height="48dp"
         android:text="로그인"
         app:layout_constraintBottom_toBottomOf="@+id/imageView10"
         app:layout_constraintEnd_toEndOf="@+id/imageView10"
-        app:layout_constraintStart_toStartOf="@+id/imageView10" />
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/edtext4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

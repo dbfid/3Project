@@ -10,11 +10,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:usesCleartextTraffic="true"
-        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity
-            android:name=".maintest2"
-            android:screenOrientation="landscape">
-        </activity>
+        android:theme="@style/AppTheme"
+        android:background="@android:color/transparent">
+
+        <meta-data android:name="android.max_aspect" android:value="2.1" />
 
         <activity
             android:name=".Setting"
@@ -71,11 +70,6 @@
         </activity>
 
         <activity
-            android:name=".joinmembershipPopup"
-            android:screenOrientation="landscape">
-        </activity>
-
-        <activity
             android:name=".shortsentence"
             android:screenOrientation="landscape">
         </activity>
@@ -88,18 +82,19 @@
         <activity
             android:name=".pop_join"
             android:screenOrientation="landscape"
-            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog">
+            android:theme="@android:style/Theme.Translucent">
         </activity>
 
         <activity
             android:name=".pop_login"
             android:screenOrientation="landscape"
-            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog">
+            android:theme="@android:style/Theme.Translucent">
         </activity>
 
         <activity
             android:name=".maintest"
             android:screenOrientation="landscape">
+
         </activity>
 
     </application>
