@@ -7,85 +7,74 @@
     android:layout_height="match_parent"
     tools:context=".Mypage">
 
-    <ImageView
-        android:id="@+id/background"
-        android:layout_width="741dp"
-        android:layout_height="501dp"
+     <ImageView
+        android:id="@+id/background2"
+        android:layout_width="732dp"
+        android:layout_height="995dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ghldnjsrkdlq" />
+        app:layout_constraintVertical_bias="0.501"
+        app:srcCompat="@drawable/emptypage" />
 
     <ImageView
-        android:id="@+id/pronunciationpearl"
-        android:layout_width="104dp"
-        android:layout_height="109dp"
-        android:layout_marginBottom="228dp"
-        app:layout_constraintBottom_toBottomOf="@+id/background"
-        app:layout_constraintEnd_toEndOf="@+id/placepronunciation"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/placepronunciation"
-        app:srcCompat="@drawable/anfqkddnf" />
+        android:id="@+id/background3"
+        android:layout_width="732dp"
+        android:layout_height="995dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.501"
+        app:srcCompat="@drawable/emptypage" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="550dp"
+        android:layout_height="370dp"
+        app:layout_constraintBottom_toBottomOf="@+id/background2"
+        app:layout_constraintEnd_toEndOf="@+id/background2"
+        app:layout_constraintStart_toStartOf="@+id/background2"
+        app:layout_constraintTop_toTopOf="@+id/background2"
+        app:layout_constraintVertical_bias="0.736"
+        app:srcCompat="@drawable/blurredboard_study_home2" />
 
     <TextView
         android:id="@+id/backbutton2"
         android:layout_width="95dp"
         android:layout_height="35dp"
-        android:text="뒤로가기"
         android:fontFamily="@font/bazzi"
+        android:text="뒤로가기"
         android:textColor="#E44F72"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/backbutton"
         app:layout_constraintStart_toEndOf="@+id/backbutton"
-        app:layout_constraintTop_toTopOf="@+id/backbutton" />
+        app:layout_constraintTop_toTopOf="@+id/backbutton"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageView
         android:id="@+id/backbutton"
         android:layout_width="37dp"
         android:layout_height="41dp"
-        android:layout_marginStart="12dp"
-        app:layout_constraintBottom_toBottomOf="@+id/background"
-        app:layout_constraintStart_toStartOf="@+id/background"
-        app:layout_constraintTop_toTopOf="@+id/background"
-        app:layout_constraintVertical_bias="0.1"
+        app:layout_constraintBottom_toBottomOf="@+id/background2"
+        app:layout_constraintEnd_toEndOf="@+id/background2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/background2"
+        app:layout_constraintTop_toTopOf="@+id/background2"
+        app:layout_constraintVertical_bias="0.299"
         app:srcCompat="@drawable/oranagearrow_left" />
 
     <ImageView
-        android:id="@+id/placepronunciation"
-        android:layout_width="429dp"
-        android:layout_height="290dp"
-        app:layout_constraintBottom_toBottomOf="@+id/background"
-        app:layout_constraintEnd_toEndOf="@+id/background"
-        app:layout_constraintStart_toStartOf="@+id/background"
-        app:layout_constraintTop_toTopOf="@+id/background"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/board_school" />
-
-    <TextView
-        android:id="@+id/pronranking"
-        android:layout_width="56dp"
-        android:layout_height="25dp"
-        android:fontFamily="@font/bazzi"
-        android:text="발음순위"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/pronunciationpearl"
-        app:layout_constraintEnd_toEndOf="@+id/pronunciationpearl"
-        app:layout_constraintStart_toStartOf="@+id/pronunciationpearl"
-        app:layout_constraintTop_toTopOf="@+id/pronunciationpearl"
-        app:layout_constraintVertical_bias="0.345" />
-
-         <ImageView
         android:id="@+id/Profile"
         android:layout_width="136dp"
         android:layout_height="138dp"
-        app:layout_constraintBottom_toBottomOf="@+id/background"
-        app:layout_constraintEnd_toEndOf="@+id/background"
-        app:layout_constraintHorizontal_bias="0.284"
-        app:layout_constraintStart_toStartOf="@+id/background"
-        app:layout_constraintTop_toTopOf="@+id/background"
-        app:layout_constraintVertical_bias="0.107"
+        app:layout_constraintBottom_toBottomOf="@+id/background2"
+        app:layout_constraintEnd_toEndOf="@+id/background2"
+        app:layout_constraintHorizontal_bias="0.204"
+        app:layout_constraintStart_toStartOf="@+id/background2"
+        app:layout_constraintTop_toTopOf="@+id/background2"
+        app:layout_constraintVertical_bias="0.347"
         app:srcCompat="@drawable/pngegg" />
 
     <TextView
@@ -119,6 +108,8 @@
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="168dp"
         android:layout_height="26dp"
+        android:max="100"
+        android:progress="30"
         app:layout_constraintEnd_toEndOf="@+id/LV"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/LV"
@@ -129,19 +120,19 @@
         style="?android:attr/progressBarStyle"
         android:layout_width="187dp"
         android:layout_height="144dp"
-        app:layout_constraintBottom_toBottomOf="@+id/background"
-        app:layout_constraintEnd_toEndOf="@+id/background"
-        app:layout_constraintHorizontal_bias="0.96"
-        app:layout_constraintStart_toStartOf="@+id/background"
-        app:layout_constraintTop_toTopOf="@+id/background"
-        app:layout_constraintVertical_bias="0.137" />
+        app:layout_constraintBottom_toBottomOf="@+id/background2"
+        app:layout_constraintEnd_toEndOf="@+id/background2"
+        app:layout_constraintHorizontal_bias="0.928"
+        app:layout_constraintStart_toStartOf="@+id/background2"
+        app:layout_constraintTop_toTopOf="@+id/background2"
+        app:layout_constraintVertical_bias="0.372" />
 
     <ImageView
         android:id="@+id/ChangeProfileplate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="108dp"
-        android:layout_marginTop="112dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="8dp"
         android:background="#BAA7A7"
         android:backgroundTint="#979292"
         app:layout_constraintStart_toEndOf="@+id/Profile"
@@ -162,4 +153,63 @@
         app:layout_constraintStart_toStartOf="@+id/ChangeProfileplate"
         app:layout_constraintTop_toTopOf="@+id/ChangeProfileplate"
         app:layout_constraintVertical_bias="0.541" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="75dp"
+        android:layout_height="34dp"
+        android:adjustViewBounds="true"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/background2"
+        app:layout_constraintEnd_toEndOf="@+id/background2"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="@+id/background2"
+        app:layout_constraintTop_toTopOf="@+id/background2"
+        app:layout_constraintVertical_bias="0.443"
+        app:srcCompat="@drawable/blurredboard_study_home2" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="75dp"
+        android:layout_height="34dp"
+        android:adjustViewBounds="true"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/background2"
+        app:layout_constraintEnd_toEndOf="@+id/background2"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="@+id/background2"
+        app:layout_constraintTop_toTopOf="@+id/background2"
+        app:layout_constraintVertical_bias="0.443"
+        app:srcCompat="@drawable/blurredboard_study_school2" />
+
+    <TextView
+        android:id="@+id/pronranking"
+        android:layout_width="49dp"
+        android:layout_height="26dp"
+        android:fontFamily="@font/bazzi"
+        android:text="발음순위"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton2"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton2"
+        app:layout_constraintHorizontal_bias="0.653"
+        app:layout_constraintStart_toStartOf="@+id/imageButton2"
+        app:layout_constraintTop_toTopOf="@+id/imageButton2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/pronranking2"
+        android:layout_width="49dp"
+        android:layout_height="26dp"
+        android:fontFamily="@font/bazzi"
+        android:text="강사매칭"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton3"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton3"
+        app:layout_constraintStart_toStartOf="@+id/imageButton3"
+        app:layout_constraintTop_toTopOf="@+id/imageButton3"
+        app:layout_constraintVertical_bias="1.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
