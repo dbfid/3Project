@@ -12,10 +12,10 @@
         android:layout_height="501dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.128"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.51"
+        app:layout_constraintVertical_bias="0.512"
         app:srcCompat="@drawable/empty_page" />
 
     <ImageView
@@ -188,11 +188,11 @@
         android:layout_width="53dp"
         android:layout_height="83dp"
         app:layout_constraintBottom_toBottomOf="@+id/bluemat"
-        app:layout_constraintEnd_toEndOf="@+id/bluemat"
-        app:layout_constraintHorizontal_bias="0.924"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/bluemat"
         app:layout_constraintTop_toTopOf="@+id/bluemat"
-        app:layout_constraintVertical_bias="0.794"
+        app:layout_constraintVertical_bias="0.912"
         app:srcCompat="@drawable/poweroff" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

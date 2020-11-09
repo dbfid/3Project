@@ -12,10 +12,70 @@
         android:layout_height="501dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.439"
         app:srcCompat="@drawable/ghldnjsrkdlq" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="30dp"
+        android:layout_height="22dp"
+        android:fontFamily="@font/bazzi"
+        android:text="설정"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/Setting"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Setting"
+        app:layout_constraintTop_toBottomOf="@+id/Setting" />
+
+    <ImageView
+        android:id="@+id/Mypage"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="648dp"
+        android:layout_marginBottom="216dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/background"
+        app:layout_constraintEnd_toEndOf="@+id/background2"
+        app:layout_constraintHorizontal_bias="0.024"
+        app:layout_constraintStart_toStartOf="@+id/background"
+        app:layout_constraintTop_toTopOf="@+id/beachsidebackground"
+        app:layout_constraintVertical_bias="0.507"
+        app:srcCompat="@drawable/my_page_menuicon" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="79dp"
+        android:layout_height="30dp"
+        android:fontFamily="@font/bazzi"
+        android:text="마이페이지"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/background"
+        app:layout_constraintEnd_toEndOf="@+id/Mypage"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/Mypage"
+        app:layout_constraintTop_toBottomOf="@+id/Mypage"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/Setting"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="108dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/background"
+        app:layout_constraintEnd_toEndOf="@+id/background2"
+        app:layout_constraintHorizontal_bias="0.019"
+        app:layout_constraintStart_toStartOf="@+id/background"
+        app:layout_constraintTop_toTopOf="@+id/background2"
+        app:layout_constraintVertical_bias="0.628"
+        app:srcCompat="@drawable/settings_menuicon" />
 
     <ImageView
         android:id="@+id/soundeffectimage"
@@ -23,10 +83,10 @@
         android:layout_height="75dp"
         app:layout_constraintBottom_toBottomOf="@+id/background"
         app:layout_constraintEnd_toEndOf="@+id/background"
-        app:layout_constraintHorizontal_bias="0.143"
+        app:layout_constraintHorizontal_bias="0.192"
         app:layout_constraintStart_toStartOf="@+id/background"
         app:layout_constraintTop_toTopOf="@+id/background"
-        app:layout_constraintVertical_bias="0.583"
+        app:layout_constraintVertical_bias="0.591"
         app:srcCompat="@drawable/anfqkddnf" />
 
     <ImageView
@@ -35,10 +95,10 @@
         android:layout_height="75dp"
         app:layout_constraintBottom_toBottomOf="@+id/background"
         app:layout_constraintEnd_toEndOf="@+id/background"
-        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintHorizontal_bias="0.202"
         app:layout_constraintStart_toStartOf="@+id/background"
         app:layout_constraintTop_toTopOf="@+id/background"
-        app:layout_constraintVertical_bias="0.846"
+        app:layout_constraintVertical_bias="0.84"
         app:srcCompat="@drawable/anfqkddnf" />
 
     <TextView
@@ -57,11 +117,11 @@
         android:id="@+id/backbutton"
         android:layout_width="37dp"
         android:layout_height="41dp"
-        android:layout_marginStart="12dp"
+        android:layout_marginStart="44dp"
         app:layout_constraintBottom_toBottomOf="@+id/background"
         app:layout_constraintStart_toStartOf="@+id/background"
         app:layout_constraintTop_toTopOf="@+id/background"
-        app:layout_constraintVertical_bias="0.1"
+        app:layout_constraintVertical_bias="0.095"
         app:srcCompat="@drawable/oranagearrow_left" />
 
     <ImageView
@@ -70,10 +130,10 @@
         android:layout_height="75dp"
         app:layout_constraintBottom_toBottomOf="@+id/background"
         app:layout_constraintEnd_toEndOf="@+id/background"
-        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintHorizontal_bias="0.192"
         app:layout_constraintStart_toStartOf="@+id/background"
         app:layout_constraintTop_toTopOf="@+id/background"
-        app:layout_constraintVertical_bias="0.323"
+        app:layout_constraintVertical_bias="0.354"
         app:srcCompat="@drawable/anfqkddnf" />
 
     <TextView
@@ -241,5 +301,35 @@
         app:layout_constraintStart_toStartOf="@+id/imagepercentage"
         app:layout_constraintTop_toTopOf="@+id/imagepercentage"
         app:layout_constraintVertical_bias="0.794" />
+
+    <ImageView
+        android:id="@+id/Education"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="316dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/background"
+        app:layout_constraintEnd_toEndOf="@+id/beachsidebackground"
+        app:layout_constraintHorizontal_bias="0.029"
+        app:layout_constraintStart_toStartOf="@+id/background"
+        app:layout_constraintTop_toTopOf="@+id/background2"
+        app:layout_constraintVertical_bias="0.401"
+        app:srcCompat="@drawable/learning_menuicon" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="32dp"
+        android:layout_height="21dp"
+        android:fontFamily="@font/bazzi"
+        android:text="학습"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/background"
+        app:layout_constraintEnd_toStartOf="@+id/backgroundsoundimage"
+        app:layout_constraintHorizontal_bias="0.295"
+        app:layout_constraintStart_toStartOf="@+id/Education"
+        app:layout_constraintTop_toBottomOf="@+id/Education"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

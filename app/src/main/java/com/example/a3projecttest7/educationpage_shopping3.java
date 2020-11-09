@@ -1,13 +1,13 @@
 package com.example.a3projecttest7;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 
-public class Setting extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class educationpage_shopping3 extends AppCompatActivity {
 
     private ImageView education_btn;
     private ImageView mypage_btn;
@@ -16,7 +16,7 @@ public class Setting extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_setting);
+        setContentView(R.layout.activity_educationpage_shopping3);
 
 
         education_btn =(ImageView)findViewById(R.id.Education);
@@ -27,7 +27,7 @@ public class Setting extends AppCompatActivity {
         education_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Setting.this,Education.class);
+                Intent intent = new Intent(educationpage_shopping3.this,Education.class);
                 startActivity(intent);
             }
         });
@@ -35,7 +35,7 @@ public class Setting extends AppCompatActivity {
         mypage_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Setting.this,Mypage.class);
+                Intent intent = new Intent(educationpage_shopping3.this,Mypage.class);
                 startActivity(intent);
             }
         });
@@ -43,7 +43,7 @@ public class Setting extends AppCompatActivity {
         setting_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Setting.this,Setting.class);
+                Intent intent = new Intent(educationpage_shopping3.this,Setting.class);
                 startActivity(intent);
             }
         });

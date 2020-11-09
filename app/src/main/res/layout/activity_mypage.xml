@@ -26,8 +26,89 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.501"
+        app:layout_constraintVertical_bias="0.494"
         app:srcCompat="@drawable/emptypage" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="30dp"
+        android:layout_height="22dp"
+        android:fontFamily="@font/bazzi"
+        android:text="설정"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/Setting"
+        app:layout_constraintStart_toStartOf="@+id/Setting"
+        app:layout_constraintTop_toBottomOf="@+id/Setting" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="79dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/bazzi"
+        android:text="마이페이지"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/Setting"
+        app:layout_constraintEnd_toEndOf="@+id/Mypage"
+        app:layout_constraintStart_toStartOf="@+id/Mypage"
+        app:layout_constraintTop_toBottomOf="@+id/Mypage"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/Education"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="44dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/background2"
+        app:layout_constraintEnd_toEndOf="@+id/beachsidebackground"
+        app:layout_constraintHorizontal_bias="0.029"
+        app:layout_constraintStart_toStartOf="@+id/background2"
+        app:layout_constraintTop_toTopOf="@+id/background2"
+        app:layout_constraintVertical_bias="0.377"
+        app:srcCompat="@drawable/learning_menuicon" />
+
+    <ImageView
+        android:id="@+id/Mypage"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_marginEnd="608dp"
+        android:layout_marginBottom="472dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/background2"
+        app:layout_constraintEnd_toEndOf="@+id/background2"
+        app:layout_constraintHorizontal_bias="0.024"
+        app:layout_constraintStart_toStartOf="@+id/beachsidebackground"
+        app:layout_constraintTop_toTopOf="@+id/beachsidebackground"
+        app:layout_constraintVertical_bias="0.507"
+        app:srcCompat="@drawable/my_page_menuicon" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="32dp"
+        android:layout_height="21dp"
+        android:fontFamily="@font/bazzi"
+        android:text="학습"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/Education"
+        app:layout_constraintStart_toStartOf="@+id/Education"
+        app:layout_constraintTop_toBottomOf="@+id/Education" />
+
+    <ImageView
+        android:id="@+id/Setting"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/background2"
+        app:layout_constraintEnd_toEndOf="@+id/background2"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="@+id/background2"
+        app:layout_constraintTop_toTopOf="@+id/background2"
+        app:layout_constraintVertical_bias="0.607"
+        app:srcCompat="@drawable/settings_menuicon" />
 
     <ImageView
         android:id="@+id/imageView9"
@@ -35,6 +116,7 @@
         android:layout_height="370dp"
         app:layout_constraintBottom_toBottomOf="@+id/background2"
         app:layout_constraintEnd_toEndOf="@+id/background2"
+        app:layout_constraintHorizontal_bias="0.725"
         app:layout_constraintStart_toStartOf="@+id/background2"
         app:layout_constraintTop_toTopOf="@+id/background2"
         app:layout_constraintVertical_bias="0.736"
@@ -59,10 +141,10 @@
         android:layout_height="41dp"
         app:layout_constraintBottom_toBottomOf="@+id/background2"
         app:layout_constraintEnd_toEndOf="@+id/background2"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.063"
         app:layout_constraintStart_toStartOf="@+id/background2"
         app:layout_constraintTop_toTopOf="@+id/background2"
-        app:layout_constraintVertical_bias="0.299"
+        app:layout_constraintVertical_bias="0.298"
         app:srcCompat="@drawable/oranagearrow_left" />
 
     <ImageView
@@ -163,10 +245,10 @@
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="@+id/background2"
         app:layout_constraintEnd_toEndOf="@+id/background2"
-        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintStart_toStartOf="@+id/background2"
         app:layout_constraintTop_toTopOf="@+id/background2"
-        app:layout_constraintVertical_bias="0.443"
+        app:layout_constraintVertical_bias="0.452"
         app:srcCompat="@drawable/blurredboard_study_home2" />
 
     <ImageButton
@@ -178,10 +260,10 @@
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="@+id/background2"
         app:layout_constraintEnd_toEndOf="@+id/background2"
-        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintHorizontal_bias="0.302"
         app:layout_constraintStart_toStartOf="@+id/background2"
         app:layout_constraintTop_toTopOf="@+id/background2"
-        app:layout_constraintVertical_bias="0.443"
+        app:layout_constraintVertical_bias="0.452"
         app:srcCompat="@drawable/blurredboard_study_school2" />
 
     <TextView
@@ -194,7 +276,7 @@
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageButton2"
         app:layout_constraintEnd_toEndOf="@+id/imageButton2"
-        app:layout_constraintHorizontal_bias="0.653"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/imageButton2"
         app:layout_constraintTop_toTopOf="@+id/imageButton2"
         app:layout_constraintVertical_bias="1.0" />
@@ -209,6 +291,7 @@
         android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageButton3"
         app:layout_constraintEnd_toEndOf="@+id/imageButton3"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/imageButton3"
         app:layout_constraintTop_toTopOf="@+id/imageButton3"
         app:layout_constraintVertical_bias="1.0" />

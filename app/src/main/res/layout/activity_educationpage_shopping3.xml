@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".educationpage2">
+    tools:context=".educationpage_shopping3">
 
     <ImageView
         android:id="@+id/background"
@@ -12,7 +12,6 @@
         android:layout_height="995dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.501"
@@ -113,51 +112,15 @@
         app:layout_constraintTop_toTopOf="@+id/backButton" />
 
     <ImageView
-        android:id="@+id/imageView27"
+        android:id="@+id/imageView28"
         android:layout_width="550dp"
         android:layout_height="370dp"
         app:layout_constraintBottom_toBottomOf="@+id/background"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.703"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/background"
+        app:layout_constraintHorizontal_bias="0.7"
+        app:layout_constraintStart_toStartOf="@+id/background"
         app:layout_constraintTop_toTopOf="@+id/background"
-        app:layout_constraintVertical_bias="0.499"
-        app:srcCompat="@drawable/blurredboard_study_school2" />
-
-    <ImageView
-        android:id="@+id/frontButton"
-        android:layout_width="38dp"
-        android:layout_height="39dp"
-        android:layout_marginStart="372dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView27"
-        app:layout_constraintStart_toStartOf="@+id/imageView27"
-        app:layout_constraintTop_toTopOf="@+id/imageView27"
-        app:layout_constraintVertical_bias="0.7"
-        app:srcCompat="@drawable/arrow_left" />
-
-    <ImageView
-        android:id="@+id/imageView33"
-        android:layout_width="55dp"
-        android:layout_height="55dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView27"
-        app:layout_constraintEnd_toEndOf="@+id/imageView27"
-        app:layout_constraintHorizontal_bias="0.828"
-        app:layout_constraintStart_toStartOf="@+id/imageView27"
-        app:layout_constraintTop_toTopOf="@+id/imageView27"
-        app:layout_constraintVertical_bias="0.92"
-        app:srcCompat="@drawable/mic" />
-
-    <ImageView
-        android:id="@+id/speaker2"
-        android:layout_width="60dp"
-        android:layout_height="53dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView27"
-        app:layout_constraintEnd_toEndOf="@+id/imageView27"
-        app:layout_constraintHorizontal_bias="0.636"
-        app:layout_constraintStart_toStartOf="@+id/imageView27"
-        app:layout_constraintTop_toTopOf="@+id/imageView27"
-        app:layout_constraintVertical_bias="0.564"
-        app:srcCompat="@drawable/speaker" />
+        app:srcCompat="@drawable/blurredboard_study_shopping2" />
 
     <ImageView
         android:id="@+id/mikbackbutton"
@@ -168,6 +131,40 @@
         app:layout_constraintStart_toEndOf="@+id/frontButton"
         app:layout_constraintTop_toTopOf="@+id/frontButton"
         app:srcCompat="@drawable/arrow_right" />
+
+    <ImageView
+        android:id="@+id/frontButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="388dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView28"
+        app:layout_constraintStart_toStartOf="@+id/imageView28"
+        app:layout_constraintTop_toTopOf="@+id/imageView28"
+        app:layout_constraintVertical_bias="0.7"
+        app:srcCompat="@drawable/arrow_left" />
+
+    <ImageView
+        android:id="@+id/speaker3"
+        android:layout_width="60dp"
+        android:layout_height="53dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView28"
+        app:layout_constraintEnd_toEndOf="@+id/imageView28"
+        app:layout_constraintHorizontal_bias="0.669"
+        app:layout_constraintStart_toStartOf="@+id/imageView28"
+        app:layout_constraintTop_toTopOf="@+id/imageView28"
+        app:srcCompat="@drawable/speaker" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView28"
+        app:layout_constraintEnd_toEndOf="@+id/imageView28"
+        app:layout_constraintHorizontal_bias="0.850"
+        app:layout_constraintStart_toStartOf="@+id/imageView28"
+        app:layout_constraintTop_toTopOf="@+id/imageView28"
+        app:layout_constraintVertical_bias="0.925"
+        app:srcCompat="@drawable/mic" />
 
     <ImageView
         android:id="@+id/edu3"
@@ -186,21 +183,10 @@
         android:layout_height="41dp"
         android:layout_marginTop="12dp"
         app:layout_constraintEnd_toEndOf="@+id/edu1"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/edu1"
         app:layout_constraintTop_toBottomOf="@+id/edu1"
         app:srcCompat="@android:drawable/button_onoff_indicator_off" />
-
-    <ImageView
-        android:id="@+id/eduLips"
-        android:layout_width="155dp"
-        android:layout_height="90dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView27"
-        app:layout_constraintEnd_toEndOf="@+id/imageView27"
-        app:layout_constraintHorizontal_bias="0.941"
-        app:layout_constraintStart_toStartOf="@+id/imageView27"
-        app:layout_constraintTop_toTopOf="@+id/imageView27"
-        app:layout_constraintVertical_bias="0.127"
-        app:srcCompat="@drawable/qorud" />
 
     <ImageView
         android:id="@+id/edu1"
@@ -217,12 +203,24 @@
         android:id="@+id/eduencoder"
         android:layout_width="281dp"
         android:layout_height="161dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView27"
-        app:layout_constraintEnd_toEndOf="@+id/imageView27"
-        app:layout_constraintHorizontal_bias="0.115"
-        app:layout_constraintStart_toStartOf="@+id/imageView27"
-        app:layout_constraintTop_toTopOf="@+id/imageView27"
-        app:layout_constraintVertical_bias="0.138"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView28"
+        app:layout_constraintEnd_toEndOf="@+id/imageView28"
+        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintStart_toStartOf="@+id/imageView28"
+        app:layout_constraintTop_toTopOf="@+id/imageView28"
+        app:layout_constraintVertical_bias="0.162"
+        app:srcCompat="@drawable/qorud" />
+
+    <ImageView
+        android:id="@+id/eduLips"
+        android:layout_width="155dp"
+        android:layout_height="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView28"
+        app:layout_constraintEnd_toEndOf="@+id/imageView28"
+        app:layout_constraintHorizontal_bias="0.881"
+        app:layout_constraintStart_toStartOf="@+id/imageView28"
+        app:layout_constraintTop_toTopOf="@+id/imageView28"
+        app:layout_constraintVertical_bias="0.157"
         app:srcCompat="@drawable/qorud" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
