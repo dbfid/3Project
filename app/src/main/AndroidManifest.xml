@@ -36,12 +36,12 @@
         </activity>
 
         <activity
-            android:name=".educationpage1"
+            android:name=".educationpage_home1"
             android:screenOrientation="landscape">
         </activity>
 
         <activity
-            android:name=".educationpage2"
+            android:name=".educationpage_school2"
             android:screenOrientation="landscape">
         </activity>
 
@@ -55,7 +55,7 @@
         </activity>
 
         <activity
-            android:name=".educationpage4"
+            android:name=".educationpage_hos4"
             android:screenOrientation="landscape">
         </activity>
 
@@ -65,7 +65,7 @@
         </activity>
 
         <activity
-            android:name=".educationpage3"
+            android:name=".educationpage_shopping3"
             android:screenOrientation="landscape">
         </activity>
 

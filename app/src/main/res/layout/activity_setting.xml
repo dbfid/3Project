@@ -7,198 +7,239 @@
     tools:context=".Setting">
 
     <ImageView
-        android:id="@+id/beachsidebackground"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:id="@+id/background"
+        android:layout_width="741dp"
+        android:layout_height="501dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.014"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.46"
-        app:srcCompat="@drawable/emptypage" />
+        app:srcCompat="@drawable/ghldnjsrkdlq" />
 
     <ImageView
-        android:id="@+id/bluemat"
-        android:layout_width="550dp"
-        android:layout_height="500dp"
-        app:layout_constraintBottom_toTopOf="@+id/beachsidebackground"
-        app:layout_constraintEnd_toEndOf="@+id/beachsidebackground"
-        app:layout_constraintHorizontal_bias="0.692"
-        app:layout_constraintStart_toStartOf="@+id/beachsidebackground"
-        app:layout_constraintTop_toBottomOf="@+id/beachsidebackground"
-        app:srcCompat="@drawable/board2" />
-
-    <ImageButton
-        android:id="@+id/imageButton9"
+        android:id="@+id/soundeffectimage"
         android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="40dp"
-        android:adjustViewBounds="true"
-        android:background="#00FFFFFF"
-        android:scaleType="fitCenter"
-        app:layout_constraintStart_toStartOf="@+id/imageButton10"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton10"
-        app:srcCompat="@drawable/my_page_menuicon" />
+        android:layout_height="75dp"
+        app:layout_constraintBottom_toBottomOf="@+id/background"
+        app:layout_constraintEnd_toEndOf="@+id/background"
+        app:layout_constraintHorizontal_bias="0.143"
+        app:layout_constraintStart_toStartOf="@+id/background"
+        app:layout_constraintTop_toTopOf="@+id/background"
+        app:layout_constraintVertical_bias="0.583"
+        app:srcCompat="@drawable/anfqkddnf" />
 
-    <ImageButton
-        android:id="@+id/imageButton10"
+    <ImageView
+        android:id="@+id/pushNotification"
         android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="20dp"
-        android:adjustViewBounds="true"
-        android:background="#00FFFFFF"
-        android:scaleType="fitCenter"
-        app:layout_constraintStart_toStartOf="@+id/imageButton"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton"
-        app:srcCompat="@drawable/learning_menuicon" />
+        android:layout_height="75dp"
+        app:layout_constraintBottom_toBottomOf="@+id/background"
+        app:layout_constraintEnd_toEndOf="@+id/background"
+        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintStart_toStartOf="@+id/background"
+        app:layout_constraintTop_toTopOf="@+id/background"
+        app:layout_constraintVertical_bias="0.846"
+        app:srcCompat="@drawable/anfqkddnf" />
 
-    <ImageButton
-        android:id="@+id/imageButton11"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="40dp"
-        android:adjustViewBounds="true"
-        android:background="#00FFFFFF"
-        android:scaleType="fitCenter"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/imageButton9"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton9"
-        app:srcCompat="@drawable/settings_menuicon" />
+    <TextView
+        android:id="@+id/backbutton2"
+        android:layout_width="95dp"
+        android:layout_height="35dp"
+        android:text="뒤로가기"
+        android:fontFamily="@font/bazzi"
+        android:textColor="#E44F72"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/backbutton"
+        app:layout_constraintStart_toEndOf="@+id/backbutton"
+        app:layout_constraintTop_toTopOf="@+id/backbutton" />
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="20dp"
-        android:adjustViewBounds="true"
-        android:background="#00FFFFFF"
-        android:scaleType="fitCenter"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+    <ImageView
+        android:id="@+id/backbutton"
+        android:layout_width="37dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="12dp"
+        app:layout_constraintBottom_toBottomOf="@+id/background"
+        app:layout_constraintStart_toStartOf="@+id/background"
+        app:layout_constraintTop_toTopOf="@+id/background"
+        app:layout_constraintVertical_bias="0.1"
         app:srcCompat="@drawable/oranagearrow_left" />
 
+    <ImageView
+        android:id="@+id/backgroundsoundimage"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        app:layout_constraintBottom_toBottomOf="@+id/background"
+        app:layout_constraintEnd_toEndOf="@+id/background"
+        app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toStartOf="@+id/background"
+        app:layout_constraintTop_toTopOf="@+id/background"
+        app:layout_constraintVertical_bias="0.323"
+        app:srcCompat="@drawable/anfqkddnf" />
+
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/backgroundsoundtext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="3dp"
+        android:text="배경음"
         android:fontFamily="@font/bazzi"
-        android:text="학습"
         android:textColor="#000000"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="@+id/imageButton10"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="@+id/imageButton10"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton10" />
+        app:layout_constraintBottom_toBottomOf="@+id/backgroundsoundimage"
+        app:layout_constraintEnd_toEndOf="@+id/backgroundsoundimage"
+        app:layout_constraintStart_toStartOf="@+id/backgroundsoundimage"
+        app:layout_constraintTop_toTopOf="@+id/backgroundsoundimage" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/soundeffecttext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="3dp"
-        android:fontFamily="@font/bazzi"
-        android:text="마이페이지"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="@+id/imageButton9"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="@+id/imageButton9"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton9" />
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="3dp"
-        android:fontFamily="@font/bazzi"
-        android:text="설정"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="@+id/imageButton11"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="@+id/imageButton11"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton11" />
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="3dp"
-        android:fontFamily="@font/bazzi"
-        android:outlineAmbientShadowColor="#FFFFFF"
-        android:text="뒤로가기"
-        android:textColor="#D6450B"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageButton"
-        app:layout_constraintStart_toEndOf="@+id/imageButton"
-        app:layout_constraintTop_toTopOf="@+id/imageButton"
-        app:layout_constraintVertical_bias="0.5" />
-
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:fontFamily="@font/bazzi"
-        android:text="배경음악"
-        android:textColor="#FFFFFF"
-        android:textSize="30sp"
-        app:layout_constraintEnd_toEndOf="@+id/bluemat"
-        app:layout_constraintHorizontal_bias="0.35"
-        app:layout_constraintStart_toStartOf="@+id/bluemat"
-        app:layout_constraintTop_toTopOf="@+id/beachsidebackground" />
-
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:fontFamily="@font/bazzi"
         android:text="효과음"
-        android:textColor="#FFFFFF"
-        android:textSize="30sp"
-        app:layout_constraintStart_toStartOf="@+id/textView13"
-        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+        android:fontFamily="@font/bazzi"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/soundeffectimage"
+        app:layout_constraintEnd_toEndOf="@+id/soundeffectimage"
+        app:layout_constraintStart_toStartOf="@+id/soundeffectimage"
+        app:layout_constraintTop_toTopOf="@+id/soundeffectimage" />
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:id="@+id/pushNotificationtext"
+        android:layout_width="63dp"
+        android:layout_height="20dp"
+        android:text="PUSH알림"
         android:fontFamily="@font/bazzi"
-        android:text="push알람"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/pushNotification"
+        app:layout_constraintEnd_toEndOf="@+id/pushNotification"
+        app:layout_constraintStart_toStartOf="@+id/pushNotification"
+        app:layout_constraintTop_toTopOf="@+id/pushNotification" />
+
+    <ToggleButton
+        android:id="@+id/backgroundsoundtoggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#7DD4FF"
+        android:text="ToggleButton"
         android:textColor="#FFFFFF"
-        android:textSize="30sp"
-        app:layout_constraintStart_toStartOf="@+id/textView14"
-        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+        android:textOff="끄기"
+        android:textOn="켜기"
+        android:fontFamily="@font/bazzi"
+        app:layout_constraintBottom_toBottomOf="@+id/backgroundsoundimage"
+        app:layout_constraintStart_toEndOf="@+id/backgroundsoundimage"
+        app:layout_constraintTop_toTopOf="@+id/backgroundsoundimage" />
 
-    <Button
-        android:id="@+id/button"
+    <ToggleButton
+        android:id="@+id/pushNotificationtoggleButton3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
-        android:text="Button"
-        app:layout_constraintStart_toEndOf="@+id/textView13"
-        app:layout_constraintTop_toTopOf="@+id/textView13" />
+        android:background="#7DD4FF"
+        android:text="ToggleButton"
+        android:textColor="#FFFFFF"
+        android:textOff="끄기"
+        android:textOn="켜기"
+        android:fontFamily="@font/bazzi"
+        app:layout_constraintBottom_toBottomOf="@+id/pushNotification"
+        app:layout_constraintStart_toEndOf="@+id/pushNotification"
+        app:layout_constraintTop_toTopOf="@+id/pushNotification" />
 
-    <Button
-        android:id="@+id/button2"
+    <ToggleButton
+        android:id="@+id/soundeffecttoggleButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        app:layout_constraintStart_toStartOf="@+id/button"
-        app:layout_constraintTop_toTopOf="@+id/textView14" />
+        android:background="#7DD4FF"
+        android:text="ToggleButton"
+        android:textColor="#FFFFFF"
+        android:textOff="끄기"
+        android:textOn="켜기"
+        android:fontFamily="@font/bazzi"
+        app:layout_constraintBottom_toBottomOf="@+id/soundeffectimage"
+        app:layout_constraintStart_toEndOf="@+id/soundeffectimage"
+        app:layout_constraintTop_toTopOf="@+id/soundeffectimage" />
 
-    <Button
-        android:id="@+id/button3"
+    <ImageView
+        android:id="@+id/fontchangeplate"
+        android:layout_width="376dp"
+        android:layout_height="250dp"
+        app:layout_constraintBottom_toBottomOf="@+id/background"
+        app:layout_constraintEnd_toEndOf="@+id/background"
+        app:layout_constraintHorizontal_bias="0.89"
+        app:layout_constraintStart_toStartOf="@+id/background"
+        app:layout_constraintTop_toTopOf="@+id/background"
+        app:layout_constraintVertical_bias="0.792"
+        app:srcCompat="@drawable/board_school" />
+
+    <TextView
+        android:id="@+id/fontchange"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        app:layout_constraintStart_toStartOf="@+id/button2"
-        app:layout_constraintTop_toTopOf="@+id/textView2" />
+        android:layout_marginBottom="248dp"
+        android:text="폰트변경"
+        android:fontFamily="@font/bazzi"
+        android:textColor="#093447"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/fontchangeplate"
+        app:layout_constraintEnd_toEndOf="@+id/fontchangeplate"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/fontchangeplate" />
+
+    <ImageView
+        android:id="@+id/fontchangecheckimage"
+        android:layout_width="58dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="248dp"
+        app:layout_constraintBottom_toBottomOf="@+id/fontchangeplate"
+        app:layout_constraintEnd_toEndOf="@+id/fontchangeplate"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/fontchangeplate"
+        app:srcCompat="@drawable/word_menu_name_blank" />
+
+    <TextView
+        android:id="@+id/fontchangechecktext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="확인"
+        android:fontFamily="@font/bazzi"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/fontchangecheckimage"
+        app:layout_constraintEnd_toEndOf="@+id/fontchangecheckimage"
+        app:layout_constraintStart_toStartOf="@+id/fontchangecheckimage"
+        app:layout_constraintTop_toTopOf="@+id/fontchangecheckimage"
+        app:layout_constraintVertical_bias="0.65" />
+
+    <TextView
+        android:id="@+id/imagesizingtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이미지 크기 조절"
+        android:fontFamily="@font/bazzi"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/background"
+        app:layout_constraintEnd_toEndOf="@+id/background"
+        app:layout_constraintHorizontal_bias="0.564"
+        app:layout_constraintStart_toStartOf="@+id/background"
+        app:layout_constraintTop_toTopOf="@+id/background"
+        app:layout_constraintVertical_bias="0.179" />
+
+    <ImageView
+        android:id="@+id/imagepercentage"
+        android:layout_width="64dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="12dp"
+        app:layout_constraintStart_toStartOf="@+id/imagesizingtext"
+        app:layout_constraintTop_toBottomOf="@+id/imagesizingtext"
+        app:srcCompat="@drawable/gameicon_empty" />
+
+    <TextView
+        android:id="@+id/imagepercentageText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00%"
+        android:fontFamily="@font/bazzi"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="@+id/imagepercentage"
+        app:layout_constraintEnd_toEndOf="@+id/imagepercentage"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="@+id/imagepercentage"
+        app:layout_constraintTop_toTopOf="@+id/imagepercentage"
+        app:layout_constraintVertical_bias="0.794" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
