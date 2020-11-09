@@ -12,6 +12,7 @@
         android:layout_height="995dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.501"
@@ -167,5 +168,61 @@
         app:layout_constraintStart_toEndOf="@+id/frontButton"
         app:layout_constraintTop_toTopOf="@+id/frontButton"
         app:srcCompat="@drawable/arrow_right" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="239dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView9"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView9"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:srcCompat="@android:drawable/button_onoff_indicator_off" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="239dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView22"
+        app:layout_constraintStart_toStartOf="@+id/imageView22"
+        app:layout_constraintTop_toBottomOf="@+id/imageView22"
+        app:srcCompat="@android:drawable/button_onoff_indicator_off" />
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="155dp"
+        android:layout_height="90dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView27"
+        app:layout_constraintEnd_toEndOf="@+id/imageView27"
+        app:layout_constraintHorizontal_bias="0.941"
+        app:layout_constraintStart_toStartOf="@+id/imageView27"
+        app:layout_constraintTop_toTopOf="@+id/imageView27"
+        app:layout_constraintVertical_bias="0.127"
+        app:srcCompat="@drawable/qorud" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="239dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView39"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView39"
+        app:layout_constraintTop_toBottomOf="@+id/imageView39"
+        app:srcCompat="@android:drawable/button_onoff_indicator_off" />
+
+    <ImageView
+        android:id="@+id/imageView39"
+        android:layout_width="281dp"
+        android:layout_height="161dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView27"
+        app:layout_constraintEnd_toEndOf="@+id/imageView27"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintStart_toStartOf="@+id/imageView27"
+        app:layout_constraintTop_toTopOf="@+id/imageView27"
+        app:layout_constraintVertical_bias="0.138"
+        app:srcCompat="@drawable/qorud" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
