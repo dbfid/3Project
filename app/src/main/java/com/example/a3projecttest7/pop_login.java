@@ -37,7 +37,10 @@ public class pop_login  extends Activity {
         getWindowManager().getDefaultDisplay().getMetrics(dm);
         int width = dm.widthPixels;
         int height = dm.widthPixels;
-        getWindow().setLayout((int) (width * 0.5), (int) (height * 0.45));
+        getWindow().setLayout((int) (width * 0.5), (int) (height * 0.6));
+
+        edtext1 = findViewById(R.id.edtext3);
+        edtext2 = findViewById(R.id.edtext4);
 
 /*        // 로그인 완료 버튼
         findViewById(R.id.btn4).setOnClickListener(new View.OnClickListener() {
@@ -52,7 +55,7 @@ public class pop_login  extends Activity {
         requestQueue = Volley.newRequestQueue(pop_login.this);
 
         // 2. url세팅
-        String url = "http://localhost:8077/kid/LoginServlet";
+        String url = "http://221.156.243.239:8077/kid/LoginServlet";
 
         // 3. stringRequest세팅
         stringRequest = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
