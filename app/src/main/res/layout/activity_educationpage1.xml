@@ -168,7 +168,7 @@
         app:srcCompat="@drawable/speaker" />
 
     <ImageView
-        android:id="@+id/imageView44"
+        android:id="@+id/eduencoder"
         android:layout_width="281dp"
         android:layout_height="161dp"
         android:layout_marginTop="32dp"
@@ -179,18 +179,18 @@
         app:srcCompat="@drawable/qorud" />
 
     <ImageView
-        android:id="@+id/imageView41"
+        android:id="@+id/edu3"
         android:layout_width="239dp"
         android:layout_height="41dp"
         android:layout_marginTop="12dp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView43"
+        app:layout_constraintEnd_toEndOf="@+id/edu2"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/imageView43"
-        app:layout_constraintTop_toBottomOf="@+id/imageView43"
+        app:layout_constraintStart_toStartOf="@+id/edu2"
+        app:layout_constraintTop_toBottomOf="@+id/edu2"
         app:srcCompat="@android:drawable/button_onoff_indicator_off" />
 
     <ImageView
-        android:id="@+id/imageView45"
+        android:id="@+id/eduLips"
         android:layout_width="155dp"
         android:layout_height="90dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView26"
@@ -202,22 +202,24 @@
         app:srcCompat="@drawable/qorud" />
 
     <ImageView
-        android:id="@+id/imageView43"
+        android:id="@+id/edu2"
         android:layout_width="239dp"
         android:layout_height="41dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView42"
-        app:layout_constraintStart_toStartOf="@+id/imageView42"
-        app:layout_constraintTop_toBottomOf="@+id/imageView42"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="@+id/edu1"
+        app:layout_constraintStart_toStartOf="@+id/edu1"
+        app:layout_constraintTop_toBottomOf="@+id/edu1"
         app:srcCompat="@android:drawable/button_onoff_indicator_off" />
 
     <ImageView
-        android:id="@+id/imageView42"
+        android:id="@+id/edu1"
         android:layout_width="239dp"
         android:layout_height="41dp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView44"
-        app:layout_constraintStart_toStartOf="@+id/imageView44"
-        app:layout_constraintTop_toBottomOf="@+id/imageView44"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="@+id/eduencoder"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="@+id/eduencoder"
+        app:layout_constraintTop_toBottomOf="@+id/eduencoder"
         app:srcCompat="@android:drawable/button_onoff_indicator_off" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
