@@ -9,23 +9,23 @@ import android.widget.ImageView;
 
 public class shortsentence extends AppCompatActivity {
 
-            private ImageView education_btn;
-            private ImageView mypage_btn;
-            private ImageView setting_btn;
-            private ImageView home;
-            private ImageView hos;
-            private ImageView shopping;
-            private ImageView school;
+    private ImageView education_btn;
+    private ImageView mypage_btn;
+    private ImageView setting_btn;
+    private ImageView home;
+    private ImageView hos;
+    private ImageView shopping;
+    private ImageView school;
 
-            @Override
-            protected void onCreate(Bundle savedInstanceState) {
-                super.onCreate(savedInstanceState);
-                setContentView(R.layout.activity_shortsentence);
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_shortsentence);
 
 
-                education_btn =(ImageView)findViewById(R.id.Education);
-                mypage_btn =(ImageView)findViewById(R.id.Mypage);
-                setting_btn =(ImageView)findViewById(R.id.Setting);
+        education_btn =(ImageView)findViewById(R.id.Education);
+        mypage_btn =(ImageView)findViewById(R.id.Mypage);
+        setting_btn =(ImageView)findViewById(R.id.Setting);
         home =(ImageView)findViewById(R.id.imageView1);
         school =(ImageView)findViewById(R.id.imageView2);
         shopping =(ImageView)findViewById(R.id.imageView3);

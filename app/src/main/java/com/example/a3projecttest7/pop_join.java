@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -33,12 +34,14 @@ public class pop_join extends Activity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         // 팝업창 조절
         super.onCreate(savedInstanceState);
+        // 필요없는거 지워주는거
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.pop_join);
         DisplayMetrics dm = new DisplayMetrics(); //창크기조절
         getWindowManager().getDefaultDisplay().getMetrics(dm);
         int width = dm.widthPixels;
         int height = dm.widthPixels;
-        getWindow().setLayout((int) (width * 0.5), (int) (height * 0.6));
+        getWindow().setLayout((int) (width * 0.5), (int) (height * 0.48));
 
         edtext3 = findViewById(R.id.edtext3);
         edtext4 = findViewById(R.id.edtext4);
