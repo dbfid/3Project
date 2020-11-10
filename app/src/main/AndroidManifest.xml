@@ -1,101 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.a3projecttest7">
-    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
+        android:background="@android:color/transparent"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:usesCleartextTraffic="true"
         android:theme="@style/AppTheme"
-        android:background="@android:color/transparent">
+        android:usesCleartextTraffic="true">
+        <service
+            android:name=".MusicService"
+            android:enabled="true"
+            android:exported="true"></service>
 
-        <meta-data android:name="android.max_aspect" android:value="2.1" />
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.1" />
 
         <activity
             android:name=".Setting"
-            android:screenOrientation="landscape">
-        </activity>
-
+            android:screenOrientation="landscape"></activity>
         <activity
             android:name=".wordlearning"
-            android:screenOrientation="landscape">
-        </activity>
-
+            android:screenOrientation="landscape"></activity>
         <activity
             android:name=".educationgame"
-            android:screenOrientation="landscape">
-        </activity>
-
+            android:screenOrientation="landscape"></activity>
         <activity
             android:name=".Education"
-            android:screenOrientation="landscape">
-        </activity>
-
+            android:screenOrientation="landscape"></activity>
         <activity
             android:name=".educationpage_home1"
-            android:screenOrientation="landscape">
-        </activity>
-
+            android:screenOrientation="landscape"></activity>
         <activity
             android:name=".educationpage_school2"
-            android:screenOrientation="landscape">
-        </activity>
-
+            android:screenOrientation="landscape"></activity>
         <activity
             android:name=".MainActivity"
             android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".educationpage_hos4"
-            android:screenOrientation="landscape">
-        </activity>
-
+            android:screenOrientation="landscape"></activity>
         <activity
             android:name=".longsentence"
-            android:screenOrientation="landscape">
-        </activity>
-
+            android:screenOrientation="landscape"></activity>
         <activity
             android:name=".educationpage_shopping3"
-            android:screenOrientation="landscape">
-        </activity>
-
+            android:screenOrientation="landscape"></activity>
         <activity
             android:name=".shortsentence"
-            android:screenOrientation="landscape">
-        </activity>
-
+            android:screenOrientation="landscape"></activity>
         <activity
             android:name=".Mypage"
-            android:screenOrientation="landscape">
-        </activity>
-
+            android:screenOrientation="landscape"></activity>
         <activity
             android:name=".pop_join"
             android:screenOrientation="landscape"
-            android:theme="@android:style/Theme.Translucent">
-        </activity>
-
+            android:theme="@android:style/Theme.Translucent"></activity>
         <activity
             android:name=".pop_login"
             android:screenOrientation="landscape"
-            android:theme="@android:style/Theme.Translucent">
-        </activity>
-
+            android:theme="@android:style/Theme.Translucent"></activity>
         <activity
             android:name=".maintest"
-            android:screenOrientation="landscape">
+            android:screenOrientation="landscape"></activity>
 
-        </activity>
+
 
     </application>
 

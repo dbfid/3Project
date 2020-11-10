@@ -1,6 +1,7 @@
 package com.example.a3projecttest7;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
 //import android.support.v7.app.AppCompatActivity;
@@ -28,6 +29,9 @@ public class Education extends AppCompatActivity implements View.OnClickListener
 
 
 
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
@@ -45,6 +49,7 @@ public class Education extends AppCompatActivity implements View.OnClickListener
         enteringashortsentence =(ImageView)findViewById(R.id.enteringashortsentence);
         enteringalongsentence =(ImageView)findViewById(R.id.enteringalongsentence);
         enteringagame =(ImageView)findViewById(R.id.enteringagame);
+
 
 
         // 학습메뉴에서 학습버튼 눌렀을 시
