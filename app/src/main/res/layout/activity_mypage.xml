@@ -1,246 +1,298 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000"
     tools:context=".Mypage">
 
      <ImageView
-         android:id="@+id/beachsidebackground"
-         android:layout_width="0dp"
-         android:layout_height="0dp"
-         app:layout_constraintBottom_toBottomOf="parent"
-         app:layout_constraintEnd_toEndOf="parent"
-         app:layout_constraintHorizontal_bias="0.014"
-         app:layout_constraintStart_toStartOf="parent"
-         app:layout_constraintTop_toTopOf="parent"
-         app:layout_constraintVertical_bias="0.46"
-         app:srcCompat="@drawable/emptypage" />
+        android:id="@+id/background2"
+        android:layout_width="732dp"
+        android:layout_height="995dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.501"
+        app:srcCompat="@drawable/emptypage" />
 
-     <ImageView
-         android:id="@+id/bluemat"
-         android:layout_width="550dp"
-         android:layout_height="500dp"
-         app:layout_constraintBottom_toTopOf="@+id/beachsidebackground"
-         app:layout_constraintEnd_toEndOf="@+id/beachsidebackground"
-         app:layout_constraintHorizontal_bias="0.692"
-         app:layout_constraintStart_toStartOf="@+id/beachsidebackground"
-         app:layout_constraintTop_toBottomOf="@+id/beachsidebackground"
-         app:srcCompat="@drawable/board2" />
+    <ImageView
+        android:id="@+id/background3"
+        android:layout_width="732dp"
+        android:layout_height="995dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.494"
+        app:srcCompat="@drawable/emptypage" />
 
-     <ImageButton
-         android:id="@+id/imageButton9"
-         android:layout_width="80dp"
-         android:layout_height="80dp"
-         android:layout_marginTop="40dp"
-         android:adjustViewBounds="true"
-         android:background="#00FFFFFF"
-         android:scaleType="fitCenter"
-         app:layout_constraintStart_toStartOf="@+id/imageButton10"
-         app:layout_constraintTop_toBottomOf="@+id/imageButton10"
-         app:srcCompat="@drawable/my_page_menuicon" />
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="30dp"
+        android:layout_height="22dp"
+        android:fontFamily="@font/bazzi"
+        android:text="설정"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/Setting"
+        app:layout_constraintStart_toStartOf="@+id/Setting"
+        app:layout_constraintTop_toBottomOf="@+id/Setting" />
 
-     <ImageButton
-         android:id="@+id/imageButton10"
-         android:layout_width="80dp"
-         android:layout_height="80dp"
-         android:layout_marginTop="20dp"
-         android:adjustViewBounds="true"
-         android:background="#00FFFFFF"
-         android:scaleType="fitCenter"
-         app:layout_constraintStart_toStartOf="@+id/imageButton"
-         app:layout_constraintTop_toBottomOf="@+id/imageButton"
-         app:srcCompat="@drawable/learning_menuicon" />
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="79dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/bazzi"
+        android:text="마이페이지"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/Setting"
+        app:layout_constraintEnd_toEndOf="@+id/Mypage"
+        app:layout_constraintStart_toStartOf="@+id/Mypage"
+        app:layout_constraintTop_toBottomOf="@+id/Mypage"
+        app:layout_constraintVertical_bias="0.0" />
 
-     <ImageButton
-         android:id="@+id/imageButton11"
-         android:layout_width="80dp"
-         android:layout_height="80dp"
-         android:layout_marginTop="40dp"
-         android:adjustViewBounds="true"
-         android:background="#00FFFFFF"
-         android:scaleType="fitCenter"
-         app:layout_constraintEnd_toEndOf="parent"
-         app:layout_constraintHorizontal_bias="0.0"
-         app:layout_constraintStart_toStartOf="@+id/imageButton9"
-         app:layout_constraintTop_toBottomOf="@+id/imageButton9"
-         app:srcCompat="@drawable/settings_menuicon" />
+    <ImageView
+        android:id="@+id/Education"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="44dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/background2"
+        app:layout_constraintEnd_toEndOf="@+id/beachsidebackground"
+        app:layout_constraintHorizontal_bias="0.029"
+        app:layout_constraintStart_toStartOf="@+id/background2"
+        app:layout_constraintTop_toTopOf="@+id/background2"
+        app:layout_constraintVertical_bias="0.377"
+        app:srcCompat="@drawable/learning_menuicon" />
 
-     <ImageButton
-         android:id="@+id/imageButton"
-         android:layout_width="40dp"
-         android:layout_height="40dp"
-         android:layout_marginStart="20dp"
-         android:adjustViewBounds="true"
-         android:background="#00FFFFFF"
-         android:scaleType="fitCenter"
-         app:layout_constraintBottom_toBottomOf="parent"
-         app:layout_constraintStart_toStartOf="parent"
-         app:layout_constraintTop_toTopOf="parent"
-         app:layout_constraintVertical_bias="0.0"
-         app:srcCompat="@drawable/oranagearrow_left" />
+    <ImageView
+        android:id="@+id/Mypage"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:layout_marginEnd="608dp"
+        android:layout_marginBottom="472dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/background2"
+        app:layout_constraintEnd_toEndOf="@+id/background2"
+        app:layout_constraintHorizontal_bias="0.024"
+        app:layout_constraintStart_toStartOf="@+id/beachsidebackground"
+        app:layout_constraintTop_toTopOf="@+id/beachsidebackground"
+        app:layout_constraintVertical_bias="0.507"
+        app:srcCompat="@drawable/my_page_menuicon" />
 
-     <TextView
-         android:id="@+id/textView"
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
-         android:layout_marginTop="3dp"
-         android:fontFamily="@font/bazzi"
-         android:text="학습"
-         android:textColor="#000000"
-         android:textSize="18sp"
-         app:layout_constraintEnd_toEndOf="@+id/imageButton10"
-         app:layout_constraintHorizontal_bias="0.5"
-         app:layout_constraintStart_toStartOf="@+id/imageButton10"
-         app:layout_constraintTop_toBottomOf="@+id/imageButton10" />
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="32dp"
+        android:layout_height="21dp"
+        android:fontFamily="@font/bazzi"
+        android:text="학습"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/Education"
+        app:layout_constraintStart_toStartOf="@+id/Education"
+        app:layout_constraintTop_toBottomOf="@+id/Education" />
 
-     <TextView
-         android:id="@+id/textView3"
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
-         android:layout_marginTop="3dp"
-         android:fontFamily="@font/bazzi"
-         android:text="마이페이지"
-         android:textColor="#000000"
-         android:textSize="18sp"
-         app:layout_constraintEnd_toEndOf="@+id/imageButton9"
-         app:layout_constraintHorizontal_bias="0.5"
-         app:layout_constraintStart_toStartOf="@+id/imageButton9"
-         app:layout_constraintTop_toBottomOf="@+id/imageButton9" />
+    <ImageView
+        android:id="@+id/Setting"
+        android:layout_width="78dp"
+        android:layout_height="78dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="@+id/background2"
+        app:layout_constraintEnd_toEndOf="@+id/background2"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="@+id/background2"
+        app:layout_constraintTop_toTopOf="@+id/background2"
+        app:layout_constraintVertical_bias="0.607"
+        app:srcCompat="@drawable/settings_menuicon" />
 
-     <TextView
-         android:id="@+id/textView9"
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
-         android:layout_marginTop="3dp"
-         android:fontFamily="@font/bazzi"
-         android:text="설정"
-         android:textColor="#000000"
-         android:textSize="18sp"
-         app:layout_constraintEnd_toEndOf="@+id/imageButton11"
-         app:layout_constraintHorizontal_bias="0.5"
-         app:layout_constraintStart_toStartOf="@+id/imageButton11"
-         app:layout_constraintTop_toBottomOf="@+id/imageButton11" />
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="550dp"
+        android:layout_height="370dp"
+        app:layout_constraintBottom_toBottomOf="@+id/background2"
+        app:layout_constraintEnd_toEndOf="@+id/background2"
+        app:layout_constraintHorizontal_bias="0.725"
+        app:layout_constraintStart_toStartOf="@+id/background2"
+        app:layout_constraintTop_toTopOf="@+id/background2"
+        app:layout_constraintVertical_bias="0.736"
+        app:srcCompat="@drawable/blurredboard_study_home2" />
 
-     <TextView
-         android:id="@+id/textView10"
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
-         android:layout_marginTop="3dp"
-         android:fontFamily="@font/bazzi"
-         android:outlineAmbientShadowColor="#FFFFFF"
-         android:text="뒤로가기"
-         android:textColor="#D6450B"
-         android:textSize="18sp"
-         app:layout_constraintBottom_toBottomOf="@+id/imageButton"
-         app:layout_constraintStart_toEndOf="@+id/imageButton"
-         app:layout_constraintTop_toTopOf="@+id/imageButton"
-         app:layout_constraintVertical_bias="0.5" />
+    <TextView
+        android:id="@+id/backbutton2"
+        android:layout_width="95dp"
+        android:layout_height="35dp"
+        android:fontFamily="@font/bazzi"
+        android:text="뒤로가기"
+        android:textColor="#E44F72"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/backbutton"
+        app:layout_constraintStart_toEndOf="@+id/backbutton"
+        app:layout_constraintTop_toTopOf="@+id/backbutton"
+        app:layout_constraintVertical_bias="1.0" />
 
-     <ImageView
-         android:id="@+id/imageView2"
-         android:layout_width="100dp"
-         android:layout_height="100dp"
-         android:layout_marginStart="20dp"
-         android:layout_marginTop="50dp"
-         app:layout_constraintStart_toStartOf="@+id/bluemat"
-         app:layout_constraintTop_toTopOf="@+id/beachsidebackground"
-         app:srcCompat="@drawable/bady2" />
+    <ImageView
+        android:id="@+id/backbutton"
+        android:layout_width="37dp"
+        android:layout_height="41dp"
+        app:layout_constraintBottom_toBottomOf="@+id/background2"
+        app:layout_constraintEnd_toEndOf="@+id/background2"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="@+id/background2"
+        app:layout_constraintTop_toTopOf="@+id/background2"
+        app:layout_constraintVertical_bias="0.298"
+        app:srcCompat="@drawable/oranagearrow_left" />
 
-     <TextView
-         android:id="@+id/textView12"
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
-         android:layout_marginStart="10dp"
-         android:fontFamily="@font/bazzi"
-         android:text="잠자고싶다"
-         android:textColor="#FFFFFF"
-         android:textColorLink="#FFFFFF"
-         android:textSize="24sp"
-         app:layout_constraintStart_toEndOf="@+id/imageView2"
-         app:layout_constraintTop_toTopOf="@+id/imageView2" />
+    <ImageView
+        android:id="@+id/Profile"
+        android:layout_width="136dp"
+        android:layout_height="138dp"
+        app:layout_constraintBottom_toBottomOf="@+id/background2"
+        app:layout_constraintEnd_toEndOf="@+id/background2"
+        app:layout_constraintHorizontal_bias="0.204"
+        app:layout_constraintStart_toStartOf="@+id/background2"
+        app:layout_constraintTop_toTopOf="@+id/background2"
+        app:layout_constraintVertical_bias="0.347"
+        app:srcCompat="@drawable/pngegg" />
 
-     <TextView
-         android:id="@+id/textView15"
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
-         android:layout_marginTop="10dp"
-         android:fontFamily="@font/bazzi"
-         android:text="LV:100"
-         android:textColor="#FFFFFF"
-         android:textColorLink="#FFFFFF"
-         android:textSize="24sp"
-         app:layout_constraintStart_toStartOf="@+id/textView12"
-         app:layout_constraintTop_toBottomOf="@+id/textView12" />
+    <TextView
+        android:id="@+id/LV"
+        android:layout_width="82dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/bazzi"
+        android:text="LV:02"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/Profile"
+        app:layout_constraintStart_toEndOf="@+id/Profile"
+        app:layout_constraintTop_toTopOf="@+id/Profile"
+        app:layout_constraintVertical_bias="0.494" />
 
-     <ProgressBar
-         android:id="@+id/progressBar"
-         style="?android:attr/progressBarStyleHorizontal"
-         android:layout_width="182dp"
-         android:layout_height="12dp"
-         android:layout_marginTop="10dp"
-         android:outlineAmbientShadowColor="#F8F8F8"
-         android:outlineSpotShadowColor="#FFFFFF"
-         app:layout_constraintStart_toStartOf="@+id/textView15"
-         app:layout_constraintTop_toBottomOf="@+id/textView15" />
+    <TextView
+        android:id="@+id/Nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:fontFamily="@font/bazzi"
+        android:text="닉네임"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/Profile"
+        app:layout_constraintStart_toEndOf="@+id/Profile"
+        app:layout_constraintTop_toTopOf="@+id/Profile"
+        app:layout_constraintVertical_bias="0.072" />
 
-     <ProgressBar
-         android:id="@+id/progressBar2"
-         style="?android:attr/progressBarStyle"
-         android:layout_width="80dp"
-         android:layout_height="80dp"
-         android:layout_marginStart="20dp"
-         app:layout_constraintBottom_toBottomOf="@+id/button4"
-         app:layout_constraintStart_toEndOf="@+id/button4" />
+    <ProgressBar
+        android:id="@+id/NicknameExperience"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="168dp"
+        android:layout_height="26dp"
+        android:max="100"
+        android:progress="30"
+        app:layout_constraintEnd_toEndOf="@+id/LV"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/LV"
+        app:layout_constraintTop_toBottomOf="@+id/LV" />
 
-     <Button
-         android:id="@+id/button4"
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
-         android:layout_marginStart="10dp"
-         android:text="프로필변경"
-         app:layout_constraintBottom_toBottomOf="@+id/progressBar"
-         app:layout_constraintStart_toEndOf="@+id/progressBar" />
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="187dp"
+        android:layout_height="144dp"
+        app:layout_constraintBottom_toBottomOf="@+id/background2"
+        app:layout_constraintEnd_toEndOf="@+id/background2"
+        app:layout_constraintHorizontal_bias="0.928"
+        app:layout_constraintStart_toStartOf="@+id/background2"
+        app:layout_constraintTop_toTopOf="@+id/background2"
+        app:layout_constraintVertical_bias="0.372" />
 
-     <TextView
-         android:id="@+id/textView17"
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
-         android:fontFamily="@font/bazzi"
-         android:text="나의 전체 진행도"
-         android:textColor="#FFFFFF"
-         android:textColorLink="#FFFFFF"
-         android:textSize="18sp"
-         app:layout_constraintBottom_toTopOf="@+id/progressBar2"
-         app:layout_constraintEnd_toEndOf="@+id/progressBar2"
-         app:layout_constraintStart_toStartOf="@+id/progressBar2" />
+    <ImageView
+        android:id="@+id/ChangeProfileplate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="8dp"
+        android:background="#BAA7A7"
+        android:backgroundTint="#979292"
+        app:layout_constraintStart_toEndOf="@+id/Profile"
+        app:layout_constraintTop_toTopOf="@+id/Profile"
+        app:srcCompat="@drawable/common_google_signin_btn_text_light_normal_background" />
 
-     <ImageButton
-         android:id="@+id/imageButton14"
-         android:layout_width="504dp"
-         android:layout_height="195dp"
-         android:layout_marginBottom="28dp"
-         android:adjustViewBounds="true"
-         android:background="#00FFFFFF"
-         android:scaleType="fitCenter"
-         app:layout_constraintBottom_toBottomOf="@+id/beachsidebackground"
-         app:layout_constraintEnd_toEndOf="@+id/bluemat"
-         app:layout_constraintStart_toStartOf="@+id/bluemat"
-         app:srcCompat="@drawable/ranking" />
+    <TextView
+        android:id="@+id/ChangeProfile"
+        android:layout_width="75dp"
+        android:layout_height="24dp"
+        android:fontFamily="@font/bazzi"
+        android:text="프로필 변경"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ChangeProfileplate"
+        app:layout_constraintEnd_toEndOf="@+id/ChangeProfileplate"
+        app:layout_constraintHorizontal_bias="0.583"
+        app:layout_constraintStart_toStartOf="@+id/ChangeProfileplate"
+        app:layout_constraintTop_toTopOf="@+id/ChangeProfileplate"
+        app:layout_constraintVertical_bias="0.541" />
 
-     <TextView
-         android:id="@+id/textView4"
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
-         android:fontFamily="@font/bazzi"
-         android:text="정확도"
-         android:textColor="#000000"
-         android:textSize="18sp"
-         app:layout_constraintEnd_toEndOf="@+id/imageButton14"
-         app:layout_constraintHorizontal_bias="0.163"
-         app:layout_constraintStart_toStartOf="@+id/imageButton14"
-         app:layout_constraintTop_toTopOf="@+id/imageButton14" />
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="75dp"
+        android:layout_height="34dp"
+        android:adjustViewBounds="true"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/background2"
+        app:layout_constraintEnd_toEndOf="@+id/background2"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="@+id/background2"
+        app:layout_constraintTop_toTopOf="@+id/background2"
+        app:layout_constraintVertical_bias="0.452"
+        app:srcCompat="@drawable/blurredboard_study_home2" />
 
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="75dp"
+        android:layout_height="34dp"
+        android:adjustViewBounds="true"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="@+id/background2"
+        app:layout_constraintEnd_toEndOf="@+id/background2"
+        app:layout_constraintHorizontal_bias="0.302"
+        app:layout_constraintStart_toStartOf="@+id/background2"
+        app:layout_constraintTop_toTopOf="@+id/background2"
+        app:layout_constraintVertical_bias="0.452"
+        app:srcCompat="@drawable/blurredboard_study_school2" />
+
+    <TextView
+        android:id="@+id/pronranking"
+        android:layout_width="49dp"
+        android:layout_height="26dp"
+        android:fontFamily="@font/bazzi"
+        android:text="발음순위"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton2"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageButton2"
+        app:layout_constraintTop_toTopOf="@+id/imageButton2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/pronranking2"
+        android:layout_width="49dp"
+        android:layout_height="26dp"
+        android:fontFamily="@font/bazzi"
+        android:text="강사매칭"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButton3"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton3"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageButton3"
+        app:layout_constraintTop_toTopOf="@+id/imageButton3"
+        app:layout_constraintVertical_bias="1.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

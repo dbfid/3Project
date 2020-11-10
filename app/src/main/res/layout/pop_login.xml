@@ -25,6 +25,7 @@
         android:ems="10"
         android:hint="id"
         android:inputType="textPersonName"
+        android:text="dd"
         app:layout_constraintBottom_toTopOf="@+id/edtext4"
         app:layout_constraintEnd_toEndOf="@+id/imageView10"
         app:layout_constraintStart_toStartOf="@+id/imageView10"
@@ -39,6 +40,7 @@
         android:ems="10"
         android:hint="pw"
         android:inputType="textPersonName"
+        android:text="dd"
         app:layout_constraintBottom_toTopOf="@+id/btn4"
         app:layout_constraintEnd_toEndOf="@+id/imageView10"
         app:layout_constraintStart_toStartOf="@+id/imageView10" />

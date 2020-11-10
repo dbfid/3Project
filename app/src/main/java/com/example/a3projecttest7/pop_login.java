@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.view.View;
-import android.view.Window;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -33,8 +32,6 @@ public class pop_login  extends Activity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         // 팝업창 조절
         super.onCreate(savedInstanceState);
-        // 필요없는거 지워주는거
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.pop_login);
         DisplayMetrics dm = new DisplayMetrics(); //창크기조절
         getWindowManager().getDefaultDisplay().getMetrics(dm);
