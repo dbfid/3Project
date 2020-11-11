@@ -14,9 +14,13 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
         <service
-            android:name=".MusicService"
-            android:enabled="true"
-            android:exported="true"></service>
+            android:name=".MusicService">
+            <intent-filter>
+                <action android:name="com.example.a3projecttest7"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+
+            </intent-filter>
+            </service>
 
         <meta-data
             android:name="android.max_aspect"

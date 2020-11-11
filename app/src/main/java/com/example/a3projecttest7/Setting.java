@@ -8,17 +8,17 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CompoundButton;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.Switch;
+import android.widget.Toast;
 
 public class Setting extends AppCompatActivity {
 
-    private ImageView education_btn;
-    private ImageView mypage_btn;
-    private ImageView setting_btn;
+    private ImageView education_btn , mypage_btn ,setting_btn,musicStart,musicStop;
+    private Switch mbt;
     private MediaPlayer mediaPlayer;
-    private ImageView imageView5;
-    private ImageView close;
     boolean flag = true;
 
     @Override
@@ -32,32 +32,49 @@ public class Setting extends AppCompatActivity {
         education_btn =(ImageView)findViewById(R.id.Education);
         mypage_btn =(ImageView)findViewById(R.id.Mypage);
         setting_btn =(ImageView)findViewById(R.id.Setting);
-        imageView5 =(ImageView)findViewById(R.id.imageView5);
-        close =(ImageView)findViewById(R.id.imageView5);
+        musicStart =(ImageView)findViewById(R.id.imageView5);
+        musicStop =(ImageView)findViewById(R.id.imageView6);
         mediaPlayer = MediaPlayer.create(this, R.raw.music);
+        mbt = (Switch)findViewById(R.id.musicSwitch);
 
-
-        close.setOnClickListener(new View.OnClickListener() {
+        musicStop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d("test", "액티비티-서비스 종료버튼클릭");
-                Intent intent = new Intent(
-                        getApplicationContext(),//현재제어권자
-                        MusicService.class); // 이동할 컴포넌트
-                stopService(intent); // 서비스 종료
+                Intent service = new Intent(getApplicationContext(), MusicService.class);
+                service.setPackage("com.example.a3projecttest7");
+                stopService(service);
             }
         });
 
 
-        imageView5.setOnClickListener(new View.OnClickListener() {
+        mbt.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if(isChecked){
+                    Toast.makeText(getApplicationContext(),"music off", Toast.LENGTH_SHORT).show();
+                    Intent service = new Intent(getApplicationContext(), MusicService.class);
+                    service.setPackage("com.example.a3projecttest7");
+                    stopService(service);
+                }else{
+                    Toast.makeText(getApplicationContext(),"music on", Toast.LENGTH_SHORT).show();
+                    Intent service = new Intent(getApplicationContext(), MusicService.class);
+                    service.setPackage("com.example.a3projecttest7");
+                    startService(service);
+                }
+            }
+        });
+
+
+
+
+
+        musicStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // 서비스 시작하기
-                Log.d("test", "액티비티-서비스 시작버튼클릭");
-                Intent intent = new Intent(
-                        getApplicationContext(),//현재제어권자
-                        MusicService.class); // 이동할 컴포넌트
-                startService(intent); // 서비스 시작
+                //노래시작
+                Intent service = new Intent(getApplicationContext(), MusicService.class);
+                service.setPackage("com.example.a3projecttest7");
+                startService(service);
             }
         });
 

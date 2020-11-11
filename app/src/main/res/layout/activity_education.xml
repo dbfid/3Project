@@ -32,7 +32,7 @@
 
     <ImageView
         android:id="@+id/enteringaword"
-        android:layout_width="151dp"
+        android:layout_width="150dp"
         android:layout_height="121dp"
         android:clickable="true"
         app:layout_constraintBottom_toBottomOf="@+id/beachsidebackground"

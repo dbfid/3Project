@@ -18,7 +18,9 @@ public class educationpage_home1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_educationpage_home1);
 
-
+        Intent service = new Intent(getApplicationContext(), MusicService.class);
+        service.setPackage("com.example.a3projecttest7");
+        stopService(service);
         education_btn =(ImageView)findViewById(R.id.Education);
         mypage_btn =(ImageView)findViewById(R.id.Mypage);
         setting_btn =(ImageView)findViewById(R.id.Setting);

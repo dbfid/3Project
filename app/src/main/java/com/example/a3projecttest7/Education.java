@@ -50,6 +50,10 @@ public class Education extends AppCompatActivity implements View.OnClickListener
         enteringalongsentence =(ImageView)findViewById(R.id.enteringalongsentence);
         enteringagame =(ImageView)findViewById(R.id.enteringagame);
 
+        Intent service = new Intent(getApplicationContext(), MusicService.class);
+        service.setPackage("com.example.a3projecttest7");
+        startService(service);
+
 
 
         // 학습메뉴에서 학습버튼 눌렀을 시

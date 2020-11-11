@@ -7,13 +7,49 @@ import android.os.IBinder;
 import android.util.Log;
 
 public class MusicService extends Service {
-    MediaPlayer mp3;
-    public MusicService() {
+    public MediaPlayer mp;
+
+    @Override
+    public IBinder onBind(Intent arg0) {
+        return null;
     }
 
 
+    @Override
+    public void onStart(Intent intent, int startId) {
+        Log.i("Example", "Service onStart()");
+
+        super.onStart(intent, startId);
+        mp = MediaPlayer.create(this, R.raw.music);
+        mp.setLooping(true);
+
+        mp.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
+            @Override
+            public void onPrepared(MediaPlayer mp) {
+                mp.start();
+            }
+        });
 
 
+    }
+
+    @Override
+    public void onDestroy() {
+        Log.i("Example", "Service onDestroy()");
+        super.onDestroy();
+        mp.pause();
+        mp.reset();
+        mp.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+            @Override
+            public void onCompletion(MediaPlayer mp) {
+                mp.release();
+            }
+        });
+    }
+
+
+}
+/*
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
 
@@ -45,12 +81,4 @@ public class MusicService extends Service {
         mp3 = MediaPlayer.create(this, R.raw.music);
         mp3.setLooping(false); // 반복재생
     }
-
-    @Override
-    public IBinder onBind(Intent intent) {
-        // TODO: Return the communication channel to the service.
-        throw new UnsupportedOperationException("Not yet implemented");
-
-
-    }
-}
+*/
